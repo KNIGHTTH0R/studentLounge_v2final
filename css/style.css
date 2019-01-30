@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    overflow: hidden;
+}
+
 nav {
     width: 100%;
     background-color: #3b354d;
@@ -20,7 +26,7 @@ nav {
 }
 
 .nav .nav-link {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .nav .nav-link:hover {
@@ -29,11 +35,11 @@ nav {
 
 .btn {
     margin-top: 15px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .btn-warning:hover {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .btn-primary {
@@ -41,22 +47,56 @@ nav {
 }
 
 .section-1 {
-    background-color: #7e798f;
+    background: linear-gradient(to right bottom, rgba(126, 121, 143, 0.8), rgba(140, 137, 156, 0.8)), url(../images/roberto-nickson-g-772172-unsplash.jpg);
+    background-size: cover;
+    position: relative;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .bg-text {
-    color: white;
-    margin-left: 5%;
+    color: rgb(255, 255, 255);
+    margin-left: 3%;
     margin-top: 30px;
+    margin-right: 5%;
+}
+
+.center-bg-text {
+    position: absolute;
+    top: 20vh;
+}
+
+.center-bg-text .btn-primary {
+    margin-left: 3%;
 }
 
 form {
-    margin-top: 30px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    padding: 30px;
     margin-left: 5%;
+    width: 80%;
+    background-color: rgba(56, 51, 71, 0.555);
+    border-radius: 10px;
 }
 
-form-control {
-    background-color: rgba(140, 137, 156, 0.952);
+.form-control {
+    background-color: rgb(59, 53, 77) !important;
+    margin-top: 10px;
+    color: white;
+    border: none;
+    height: 50px;
+}
+
+.form-control::placeholder {
+    color: white;
+}
+
+.form-control:focus {
+    color: white;
 }
 
 .btn-section1 {
@@ -76,6 +116,37 @@ form-control {
 .btn-section2 {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.section3 .row .btn-primary {
+    margin-top: 30px;
+}
+
+.img-section-3 {
+    background-image: url(../images/baim-hanif-89800-unsplash.jpg);
+    background-size: cover;
+    padding: 100px;
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section4 {
+    background-color: #383347;
+    padding: 50px;
+}
+
+.small-icon {
+    width: 150px;
+}
+
+.bg-text-section3 {
+    color: white;
+    margin-top: 30px;
 }
 
 footer {
