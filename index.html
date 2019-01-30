@@ -25,18 +25,19 @@
                 <div class="offset-md-2 col-md-4">
                     <ul class="nav justify-content-end">
                         <li class="nav-item ">
-                            <a class="nav-link" href="#">Αρχική</a>
+                            <a class="nav-link" href="index.html">Αρχική</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Σχετικά με εμάς</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Επικοινωνία</a>
+                            <a class="nav-link" href="contact.html">Επικοινωνία</a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-md-3">
-                    <button type="button" class="btn btn-primary">Γίνε Μέλος</button>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#MemberModalCenter">Γίνε
+                        Μέλος</button>
                     <button type="button" class="btn btn-warning">Σύνδεση</button>
                 </div>
             </div>
@@ -160,17 +161,61 @@
             </div>
             <div class="row">
                 <div class="col-md-12 text-center">
+                    <img class="logo image-fluid" src="images/logo.png" alt="image-responsive">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
                     <img class="img-fluid social" src="images/iconfinder_facebook_2142575.png" alt="responsive-image">
                     <img class="img-fluid social" src="images/iconfinder_instagram_2142569.png" alt="responsive-image">
                     <img class="img-fluid social" src="images/iconfinder_mail_2142571.png" alt="responsive-image">
                     <img class="img-fluid social" src="images/iconfinder_linkedin_2142574.png" alt="responsive-image">
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h5 class="copyright">© 2018-2019 Student Lounge Inc.</h5>
+                </div>
+            </div>
         </footer>
 
 
+        <!-- Modal -->
+        <div class="modal fade" id="MemberModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <form class="becameMember">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="exampleInputName2" placeholder="Username">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="exampleInputName" placeholder="Όνομα">
+                            </div>
+                            <div class="form-group">
 
+                                <input type="text" class="form-control" id="exampleInputText" placeholder="Επίθετο">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ε-mail">
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="password" class="form-control" id="inputPassword3" placeholder="Κωδικός">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="password" class="form-control" id="inputPassword4" placeholder="Γράψτε ξανά τον κωδικό">
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-warning btn-lg btn-section1">Γίνε Μέλος</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
+
 
 </body>
 
