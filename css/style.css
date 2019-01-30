@@ -126,9 +126,8 @@ form {
     background-image: url(../images/baim-hanif-89800-unsplash.jpg);
     background-size: cover;
     padding: 100px;
-    /* Set a specific height */
-    height: 500px;
     /* Create the parallax scrolling effect */
+    height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
