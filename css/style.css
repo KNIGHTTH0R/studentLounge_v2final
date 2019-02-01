@@ -27,6 +27,7 @@ nav {
 
 .nav .nav-link {
     color: rgb(255, 255, 255);
+    padding-bottom: 0;
 }
 
 .nav .nav-link:hover {
@@ -75,7 +76,7 @@ nav {
     margin-left: 3%;
 }
 
-form {
+.ask-us {
     margin-bottom: 10%;
     margin-top: 10%;
     padding: 30px;
@@ -184,19 +185,6 @@ footer .nav {
     background: none;
 }
 
-
-/* contact css */
-
-.contact {
-    background: linear-gradient(to right bottom, rgba(126, 121, 143, 0.479), rgba(140, 137, 156, 0.356)), url(../images/quino-al-293094-unsplash.jpg);
-    background-size: cover;
-    height: 95vh;
-}
-
-.becameMember {
-    width: 500px;
-}
-
 .widget_blog_subscription {
     display: block;
     margin-left: 22.5%;
@@ -254,4 +242,42 @@ footer .nav {
 
 .widget_blog_subscription input[type="submit"]:hover {
     background-color: #F38630;
+}
+
+
+/* contact css */
+
+.contact-form {
+    width: 100%;
+    padding: 100px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    background-color: rgb(56, 51, 71);
+    border-top: 3px solid rgb(41, 35, 59);
+    border-radius: 0px;
+    margin-left: 0;
+}
+
+.contact-form-group {
+    margin-top: 50px;
+}
+
+.contact-h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.map {
+    width: 100%;
+}
+
+.fix-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.btn-contact-send {
+    margin-top: 50px;
+    height: 70px;
 }
