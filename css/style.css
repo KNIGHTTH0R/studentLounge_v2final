@@ -202,12 +202,14 @@ footer .nav {
 }
 
 .contact-form {
-    width: 100%;
-    padding: 100px;
-    margin-bottom: 0%;
-    margin-top: 0%;
+    background-color: rgba(41, 35, 59, 0.479);
+    width: 80%;
+    padding: 60px;
     border-radius: 0px;
-    margin-left: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    border-radius: 10px;
 }
 
 .contact-form-group {
@@ -216,7 +218,6 @@ footer .nav {
 
 .contact .row .contact-form .form-control {
     background-color: rgba(54, 47, 77, 0.664) !important;
-    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.137);
 }
 
 .contact-h1 {
