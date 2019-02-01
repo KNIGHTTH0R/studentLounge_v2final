@@ -184,13 +184,21 @@ footer .nav {
     background: none;
 }
 
+.becameMember {
+    width: 100% !important;
+}
+
 
 /* contact css */
 
 .contact {
-    background-color: rgb(56, 51, 71);
+    background: linear-gradient(to right bottom, rgb(41, 35, 59), rgba(41, 35, 59, 0.76));
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-top: 2px solid rgb(41, 35, 59);
-    border-bottom: 2px solid rgb(41, 35, 59);
 }
 
 .contact-form {
@@ -204,6 +212,11 @@ footer .nav {
 
 .contact-form-group {
     margin-top: 50px;
+}
+
+.contact .row .contact-form .form-control {
+    background-color: rgba(54, 47, 77, 0.664) !important;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.137);
 }
 
 .contact-h1 {
