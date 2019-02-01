@@ -137,8 +137,14 @@ nav {
 }
 
 .section4 {
-    background-color: rgb(243, 157, 54);
+    background-color: rgba(56, 51, 71, 0.966);
     padding: 50px;
+}
+
+.fix-align {
+    margin-right: -5%;
+    background-color: rgba(56, 51, 71, 0.589);
+    padding: 30px;
 }
 
 .small-icon {
