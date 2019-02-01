@@ -188,6 +188,15 @@ footer .nav {
     width: 100% !important;
 }
 
+.forgot-pass {
+    color: white;
+}
+
+.forgot-pass:hover {
+    text-decoration: none;
+    color: orange;
+}
+
 
 /* contact css */
 
