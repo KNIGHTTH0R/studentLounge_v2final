@@ -147,6 +147,23 @@ nav {
     padding: 30px;
 }
 
+.shadow-drop-2-center {
+    animation: shadow-drop-2-center .4s cubic-bezier(.25, .46, .45, .94) both
+}
+
+@-webkit-keyframes shadow-drop-2-center {
+    0% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        box-shadow: 0 0 0 0 transparent
+    }
+    100% {
+        -webkit-transform: translateZ(50px);
+        transform: translateZ(50px);
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, .35)
+    }
+}
+
 .small-icon {
     width: 150px;
 }
@@ -157,12 +174,12 @@ nav {
 }
 
 .section5 {
-    background-image: linear-gradient(to right bottom, rgba(140, 137, 156, 0.8), rgba(243, 157, 54, 0.8)), url(../images/chuttersnap-530715-unsplash.jpg.png);
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: orange;
+}
+
+.section-5-card {
+    padding: 30px;
+    margin-right: -5%;
 }
 
 footer {
@@ -225,6 +242,7 @@ footer .nav {
     margin-bottom: 30px;
     margin-left: 10%;
     border-radius: 10px;
+    animation: shadow-drop-2-center .4s cubic-bezier(.25, .46, .45, .94) both
 }
 
 .contact-form-group {
