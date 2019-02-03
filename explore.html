@@ -14,7 +14,8 @@
 </head>
 
 <body>
-    <div class="container-fluid ">
+    <div class="container-fluid 
+    explore-container ">
         <nav>
             <div class="row">
                 <div class="offset-md-1 col-md-2">
@@ -42,8 +43,61 @@
         </nav>
         <div class="row">
             <div class="offset-md-1 col-md-3">
-                <h2 class="widget-title">Members Filters</h2>
+                <form class="explore-form">
+                    <h2 class="widget-title">Members Filters</h2>
 
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="inputText" placeholder="ΟΝΟΜΑ">
+                    </div>
+                    <div class="form-group">
+                        <select id="inputState" class="form-control">
+                            <option selected>Περιοχή</option>
+                            <option>Αθήνα</option>
+                            <option>Θεσσαλονίκη</option>
+                            <option>Πατρα</option>
+                            <option>Κρητη</option>
+                            <option>Κομοτήνη</option>
+                            <option>Λαρισα</option>
+                            <option>Βόλος</option>
+                            <option>Γιάννενα</option>
+                            <option>Κέρκυρα</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select id="inputState" class="form-control">
+                            <option selected>Φύλο</option>
+                            <option>Άνδρας</option>
+                            <option>Γυναίκα</option>
+                            <option>Άλλο</option>
+                        </select>
+                    </div>
+                    <span><b>Τιμή</b> </span>
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder=" Από..">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Εώς..">
+                        </div>
+                    </div>
+                    <span>ΕΝΔΙΑΦΕΡΟΝΤΑ</span>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>Αθλητισμός
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked> Φιλόζωος
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked> Display value
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked> Display value
+                    </div>
+                    <button type="submit" class="btn btn-primary">Αναζήτηση</button>
+                </form>
             </div>
         </div>
 

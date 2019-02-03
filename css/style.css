@@ -372,5 +372,15 @@ footer .nav {
 }
 
 .explore-container {
-    background-color: #888491
+    background-color: #F0EBEB;
+}
+
+.explore-form {
+    background-color: rgba(41, 35, 59, 0.479);
+    padding: 30px;
+    border-radius: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    animation: shadow-drop-2-center .4s cubic-bezier(.25, .46, .45, .94) both
 }
