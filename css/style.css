@@ -303,10 +303,12 @@ footer .nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 95vh;
 }
 
 .about-us-logo {
-    margin: 30px;
+    margin-top: 20vh;
+    margin-bottom: 30px;
 }
 
 .about-us-btn {
