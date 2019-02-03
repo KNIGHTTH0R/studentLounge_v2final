@@ -1,0 +1,110 @@
+.circle {
+  clip-path: circle(50% at 50% 50%);
+  width:40px;
+  margin-top:15px;
+}
+
+.profile-background{
+  background-image:linear-gradient(to right bottom, rgba(126, 121, 143, 0.2), rgba(140, 137, 156, 0.6)),url(../images/background.jpg);
+  background-attachment: fixed;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:400px;
+}
+
+.profilePic{
+  width:550px;
+  margin-top:140px;
+  overflow:hidden;
+}
+
+.profile-username{
+  font-size:28pt;
+  font-weight: bold;
+  color:white;
+  margin-top:230px;
+}
+
+.profile-age{
+  font-size:12pt;
+  font-weight:bold;
+  color:white;
+  float:left;
+}
+
+.profile-city{
+  float: left;
+  margin-left:20px;
+  font-size: 12pt;
+  color:white;
+  font-weight: bold;
+}
+
+.profile-city::before{
+  content: "\2022";
+  color: gray;
+  font-weight: bold;
+  display: inline-block;
+  width: 0.8em;
+  margin-left:-0.8em;
+}
+
+.whitespace{
+  background-color:white;
+  height:75px;
+  position:relative;
+  z-index: -1;
+}
+
+.profile-title{
+  color:black;
+  font-weight:600;
+  line-height:75px;
+  margin-left:10px;
+}
+
+.grayspace{
+  background-color: lightgray;
+  height:500px;
+  position:relative;
+  z-index: -1;
+}
+
+.profile-information{
+  margin-top:80px;
+}
+
+.profile-information::after{
+  content:'';
+  display: block;
+  height:2px;
+  margin-top:10px;
+  border-left:120px orange solid;
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.profile-input{
+  margin-top:20px;
+  background-color:silver;
+  height:50px;
+}
+
+.profile-info{
+  display:inline-block;
+  line-height: 50px;
+}
+
+.profile-info2{
+  line-height:50px;
+  display: inline-block;
+}
+
+.profile-input2{
+  height:50px;
+}
+
+.profile-input3{
+  background-color:silver;
+  height:50px;
+}
