@@ -142,9 +142,9 @@ nav {
 }
 
 .fix-align {
-    margin-right: -5%;
     background-color: rgba(56, 51, 71, 0.589);
-    padding: 30px;
+    margin-right: -5%;
+    padding: 10px;
 }
 
 .shadow-drop-2-center {
@@ -164,22 +164,41 @@ nav {
     }
 }
 
-.small-icon {
+.small-icon-2 {
     width: 150px;
+    margin-left: 5%;
+}
+
+.small-icon {
+    width: 300px;
+    margin-left: 20%;
 }
 
 .bg-text-section3 {
     color: white;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .section5 {
     background-color: orange;
 }
 
-.section-5-card {
-    padding: 30px;
-    margin-right: -5%;
+.section-5-img {
+    padding: 50px;
+}
+
+.section-5-ul {
+    list-style: none;
+    color: white;
+}
+
+.section-5-li {
+    margin-top: 10px;
+}
+
+.section-5-ul .section-5-li:before {
+    content: '✓ ';
+    color: white;
 }
 
 footer {
@@ -225,11 +244,6 @@ footer .nav {
 
 .contact {
     background: linear-gradient(to right bottom, rgb(41, 35, 59), rgba(41, 35, 59, 0.76));
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     border-top: 2px solid rgb(41, 35, 59);
 }
 
@@ -276,4 +290,81 @@ footer .nav {
 .btn-contact-send {
     margin-top: 50px;
     height: 70px;
+}
+
+.about-us {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.651), rgba(31, 31, 31, 0.274)), url(../images/rawpixel-653764-unsplash.jpg);
+    padding: 100px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-us-logo {
+    margin: 30px;
+}
+
+.about-us-btn {
+    text-align: center;
+    margin: 0 auto !important;
+}
+
+.about-us-section1 {
+    background-image: linear-gradient(to right bottom, rgba(255, 166, 0, 0.932), rgba(255, 68, 0, 0.815)), url(../images/diogo-nunes-1329551-unsplash.jpg);
+    background-color: orange;
+    padding: 50px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-us-align-text {
+    margin-top: 10%;
+}
+
+.contact-us-girl {
+    opacity: 0.8;
+}
+
+.about-us-text,
+.about-us-h1 {
+    color: white;
+}
+
+.about-us-section2 {
+    padding: 50px;
+}
+
+.about-us-s2-h3 {
+    padding-bottom: 50px;
+}
+
+.about-us-team {
+    width: 60%;
+    border-radius: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+    width: 100%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.team-box {
+    padding: 2px 16px;
+}
+
+.about-us-fix-card-align {
+    margin-right: -5%;
 }
