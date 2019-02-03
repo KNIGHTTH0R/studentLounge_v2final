@@ -378,9 +378,27 @@ footer .nav {
 .explore-form {
     background-color: rgba(41, 35, 59, 0.479);
     padding: 30px;
+    margin-left: 20px;
     border-radius: 0px;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 30px;
     border-radius: 10px;
     animation: shadow-drop-2-center .4s cubic-bezier(.25, .46, .45, .94) both
+}
+
+.explore-search {
+    margin-top: 50px;
+    display: block;
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 70px;
+    left: 80%;
+    font-size: 15px;
+    color: white;
+}
+
+.explore-filters-text {
+    color: white;
 }
