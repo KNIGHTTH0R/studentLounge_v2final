@@ -394,11 +394,35 @@ footer .nav {
 .search .fa-search {
     position: absolute;
     top: 70px;
-    left: 80%;
+    left: 95%;
     font-size: 15px;
     color: white;
 }
 
 .explore-filters-text {
     color: white;
+    margin-top: 10px;
+}
+
+.explore-filters-text::after,
+.explore-filter-title::after {
+    content: '';
+    display: block;
+    height: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-left: 120px orange solid;
+}
+
+.explore-label,
+.explore-check {
+    color: white;
+}
+
+.explore-member-card {
+    margin-top: 10%;
+}
+
+.explore-member-img {
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
 }
