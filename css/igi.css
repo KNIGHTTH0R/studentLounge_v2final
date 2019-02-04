@@ -66,7 +66,7 @@
 
 .grayspace{
   background-color: lightgray;
-  height:500px;
+  height:750px;
   position:relative;
   z-index: -1;
 }
@@ -107,4 +107,16 @@
 .profile-input3{
   background-color:silver;
   height:50px;
+}
+
+.profile-input4{
+  background-color:silver;
+  height:50px;
+  margin-top:20px;
+}
+
+.new-members{
+  background-color:black;
+  margin-top:100px;
+  height:100px;
 }
