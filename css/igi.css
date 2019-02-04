@@ -66,16 +66,29 @@
 
 .grayspace{
   background-color: lightgray;
-  height:750px;
+  height:600px;
   position:relative;
   z-index: -1;
 }
 
 .profile-information{
-  margin-top:80px;
+  padding-top:50px;
 }
 
 .profile-information::after{
+  content:'';
+  display: block;
+  height:2px;
+  margin-top:10px;
+  border-left:120px orange solid;
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.profile-information2{
+  padding-top:10px;
+}
+
+.profile-information2::after{
   content:'';
   display: block;
   height:2px;
@@ -116,7 +129,37 @@
 }
 
 .new-members{
-  background-color:black;
-  margin-top:100px;
-  height:100px;
+  background-color:white;
+  margin-right:100px;
+  height:450px;
+  float:right;
+}
+
+.newmember-photo{
+  float:left;
+  width:130px;
+  margin-top:15px;
+}
+
+.newmember-photo2{
+  float:left;
+  width:130px;
+  margin-top:15px;
+  margin-left:40px;
+}
+
+.newmember-name{
+  margin-top:10px;
+  margin-left:10px;
+  float:left;
+}
+
+.newmember-name2{
+  margin-top:10px;
+  margin-left:45px;
+  float:left;
+}
+
+.newmember-name3{
+  margin-top:10px;
 }
