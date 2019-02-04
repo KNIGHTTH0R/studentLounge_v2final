@@ -201,6 +201,9 @@ nav {
     color: white;
 }
 
+
+/* footer */
+
 footer {
     background-color: #3b354d;
 }
@@ -231,6 +234,10 @@ footer .nav {
 }
 
 .forgot-pass {
+    color: white;
+}
+
+.dateOfBirth {
     color: white;
 }
 
@@ -291,6 +298,9 @@ footer .nav {
     margin-top: 50px;
     height: 70px;
 }
+
+
+/* about us */
 
 .about-us {
     width: 100%;
@@ -370,6 +380,9 @@ footer .nav {
 .about-us-fix-card-align {
     margin-right: -5%;
 }
+
+
+/* explore page */
 
 .explore-container {
     background-color: #F0EBEB;
