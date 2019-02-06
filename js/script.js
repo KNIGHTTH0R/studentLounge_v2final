@@ -1,0 +1,1 @@
+$( ".removemodal" ).removeClass( ".login-modal" );
