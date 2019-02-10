@@ -16,7 +16,8 @@
 .profilePic{
   width:550px;
   margin-top:140px;
-  overflow:hidden;
+  position:relative;
+  z-index:2;
 }
 
 .profile-username{
@@ -51,10 +52,9 @@
 }
 
 .whitespace{
-  background-color:white;
-  height:75px;
-  position:relative;
-  z-index: -1;
+  margin-left:500px;
+  height:50px;
+  padding-top:4px;
 }
 
 .profile-title{
@@ -67,8 +67,6 @@
 .grayspace{
   background-color: lightgray;
   height:600px;
-  position:relative;
-  z-index: -1;
 }
 
 .profile-information{
@@ -161,5 +159,21 @@
 }
 
 .newmember-name3{
+  margin-top:10px;
+}
+
+#pills-home-tab{
+  color:black;
+}
+
+#pills-profile-tab{
+  color:black;
+}
+
+#pills-contact-tab{
+  color:black;
+}
+
+.edit-input{
   margin-top:10px;
 }
