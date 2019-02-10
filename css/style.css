@@ -439,3 +439,24 @@ footer .nav {
 .explore-member-img {
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
 }
+
+.looking-for-apartment {
+    background: linear-gradient(to right bottom, rgba(255, 166, 0), rgba(255, 166, 0, 0.849));
+    width: 400px;
+    height: 400px;
+    margin: 30%;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.am_looking_for_text {
+    color: white;
+    position: absolute;
+    top: 40%;
+    font-size: 2em;
+}
+
+.looking-for-apartment:hover {
+    background: linear-gradient(to right bottom, rgba(255, 166, 0, 0.733), rgba(255, 166, 0, 0.815))
+}
