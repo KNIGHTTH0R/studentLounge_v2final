@@ -179,6 +179,11 @@ nav {
     margin-top: 50px;
 }
 
+.bg-text-section3-3 {
+    color: white;
+    margin-top: 50px;
+}
+
 .section5 {
     background-color: orange;
 }
@@ -440,23 +445,113 @@ footer .nav {
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
 }
 
+.looking-for-h1 {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px
+}
+
 .looking-for-apartment {
-    background: linear-gradient(to right bottom, rgba(255, 166, 0), rgba(255, 166, 0, 0.849));
-    width: 400px;
-    height: 400px;
-    margin: 30%;
+    background-color: rgb(255, 166, 0);
+    height: 300px;
     border-radius: 20px;
-    position: relative;
-    cursor: pointer;
+    border: 3px solid rgba(41, 35, 59, 0.479);
+    margin-bottom: 150px;
+    display: block;
+    text-align: center;
 }
 
 .am_looking_for_text {
     color: white;
-    position: absolute;
-    top: 40%;
     font-size: 2em;
+    position: relative;
+    top: 46%;
 }
 
 .looking-for-apartment:hover {
-    background: linear-gradient(to right bottom, rgba(255, 166, 0, 0.733), rgba(255, 166, 0, 0.815))
+    background-color: rgba(41, 35, 59, 0.911);
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1120px) {
+    nav .row .col-md-4,
+    nav .row .col-md-3 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1250px) {
+    .bg-text-section3 {
+        font-size: 12pt;
+    }
+    .logo-white {
+        width: 200px;
+        padding: 0;
+        margin: 0;
+    }
+    .small-icon {
+        margin-left: 0;
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (max-width:760px) {
+    .ask-us {
+        display: none;
+    }
+    .section-1 {
+        height: 400px !important;
+    }
+    .bg-text {
+        font-size: 20pt;
+        margin-top: 0;
+    }
+    .fix-align {
+        margin: 0;
+        margin-top: 20px;
+    }
+    .small-icon {
+        margin-left: 30%;
+        width: 200px;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .section-1 {
+        height: 50vh !important;
+    }
+    .section2,
+    .container,
+    .bg-black-text {
+        display: none !important;
+    }
+    .bg-text {
+        margin-top: 0;
+        font-size: 15pt;
+    }
+    .fix-align {
+        margin: 0;
+        margin-top: 20px;
+    }
+    .section-5-img {
+        padding: 0 !important;
+        padding-top: 10px !important;
+    }
+    .small-icon {
+        margin: 0;
+        margin-left: 33.3%;
+        width: 150px;
+    }
+    .bg-text-section3-3 {
+        padding: 5px;
+        font-size: 15pt;
+        text-align: center;
+    }
+    .bg-text-section3 {
+        font-size: 10pt;
+    }
+    .section-5-ul {
+        padding: 15px;
+    }
 }

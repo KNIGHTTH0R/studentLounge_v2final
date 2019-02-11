@@ -4,7 +4,7 @@ SESSION_START();
 ?>
 <div class="section-1">
     <div class="row ">
-        <div class="offset-md-1 col-md-5 ">
+        <div class="offset-md-1 col-md-5 col-sm-12 ">
 
             <form class="ask-us">
                 <div class="form-group">
@@ -23,7 +23,7 @@ SESSION_START();
                 <button type="submit" class="btn btn-warning btn-lg btn-section1">Ρωτήστε μας</button>
             </form>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 col-sm-12 ">
             <div class="center-bg-text">
                 <h1 class="bg-text">Βρείτε τον καταλληλο συγκάτοικο
                 </h1>
@@ -97,11 +97,11 @@ SESSION_START();
 </div>
 <div class="section5 ">
     <div class="row ">
-        <div class="col-md-5  section-5-img ">
+        <div class="col-md-5  section-5-img">
             <img class="img-fluid small-icon" src="images/advice.png" alt="responsive-img">
         </div>
         <div class="col-md-5">
-            <h2 class="bg-text-section3">Συμβουλές για τα νέα μέλη
+            <h2 class="bg-text-section3-3">Συμβουλές για τα νέα μέλη
             </h2>
             <ul class="section-5-ul">
                 <li class="section-5-li">Συμπληρώστε το προφίλ σας! Δηλώστε τo μέρoς στο οποίο έχετε περασει και της περιοχές που σας ενδιαφέρουν για να μείνετε</li>
@@ -119,7 +119,7 @@ SESSION_START();
             <img class="img-fluid logo-white" src="images/logowhiteedition.png" alt="responsive-image">
 
             <div class="row ">
-                <div class="offset-md-3 col-md-6">
+                <div class="offset-md-3 col-md-6 ">
                     <h5 class="bg-text-section3">Θέλουμε έναν κόσμο που ενθαρρύνει την εμπιστοσύνη, την περιπέτεια και τις διαπολιτισμικές συνδέσεις.Η προθυμία μας να βοηθήσουμε ο ένας τον άλλον είναι καθολική. Το StudentLounge είναι εντελώς δωρεάν και θα παραμείνει για πάντα.Πιστεύουμε
                     στην ομορφιά, την απλότητα και τη διαφάνεια.Δίνουμε έμφαση στην κοινότητα.</h5>
                 </div>
