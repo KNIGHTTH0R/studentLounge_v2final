@@ -69,6 +69,11 @@
   height:600px;
 }
 
+.grayspace2{
+  background-color: lightgray;
+  height:750px;
+}
+
 .profile-information{
   padding-top:50px;
 }
@@ -176,4 +181,30 @@
 
 .edit-input{
   margin-top:10px;
+  width:300px;
+}
+
+.radio{
+  margin-top:20px;
+  margin-left:5px;
+}
+
+.checkbox {
+  margin-top:20px;
+  margin-left:5px;
+}
+
+.submit-button{
+  margin-top:30px;
+  background-color:#007bff;
+  border:none;
+  display:inline-block;
+  text-align:center;
+  padding:15px 32px;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.submit-button:hover{
+  background-color:orange;
 }
