@@ -496,6 +496,7 @@ footer .nav {
 }
 
 @media only screen and (max-width:760px) {
+    /* index rerspons */
     .ask-us {
         display: none;
     }
@@ -514,6 +515,18 @@ footer .nav {
         margin-left: 30%;
         width: 200px;
         margin-top: 0;
+    }
+    /* about us responsive */
+    .about-us-logo {
+        width: 100%;
+    }
+    /* contact us responsive */
+    .contact-form {
+        padding: 20px;
+    }
+    .btn-contact-send {
+        margin-top: 25px!important;
+        height: 45px!important;
     }
 }
 
@@ -553,5 +566,9 @@ footer .nav {
     }
     .section-5-ul {
         padding: 15px;
+    }
+    /*  contact us response */
+    .contact-us-girl {
+        display: none;
     }
 }

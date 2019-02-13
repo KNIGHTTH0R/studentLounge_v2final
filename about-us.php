@@ -1,15 +1,15 @@
 <?php 
 SESSION_start();
-if (!isset($_SESSION['password'])){
-include("includes/header.php");
-}else {
-include("includes/loggedinheader.php");
+if (!isset($_SESSION['password'])) {
+    include("includes/header.php");
+} else {
+    include("includes/loggedinheader.php");
 }
 ?>
 <div class="about-us">
     <div class="row">
         <div class="col-md-12 d-flex justify-content-center">
-            <img src="images/logowhiteedition.png" class="img-fluid about-us-logo" alt="responsive-image">
+            <img src="images/logowhiteedition.png" class="img-fluid about-us-logo" alt="responsive-img">
         </div>
     </div>
     <div class="row">
