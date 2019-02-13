@@ -1,20 +1,15 @@
-.circle {
-  clip-path: circle(50% at 50% 50%);
-  width:40px;
-  margin-top:15px;
-}
-
 .profile-background{
-  background-image:linear-gradient(to right bottom, rgba(126, 121, 143, 0.2), rgba(140, 137, 156, 0.6)),url(../images/background.jpg);
+  background-image:linear-gradient(to right bottom, rgba(126, 121, 143, 0.2), rgba(140, 137, 156, 0.6)),url("../images/background.jpg");
   background-attachment: fixed;
   background-position:center;
   background-repeat: no-repeat;
   background-size:cover;
   height:400px;
+
 }
 
 .profilePic{
-  width:550px;
+  width:350px;
   margin-top:140px;
   position:relative;
   z-index:2;
@@ -52,7 +47,6 @@
 }
 
 .whitespace{
-  margin-left:500px;
   height:50px;
   padding-top:4px;
 }
@@ -72,6 +66,11 @@
 .grayspace2{
   background-color: lightgray;
   height:750px;
+}
+
+.grayspace3{
+  background-color: lightgray;
+  height:1100px;
 }
 
 .profile-information{
@@ -142,6 +141,7 @@
   float:left;
   width:130px;
   margin-top:15px;
+  margin-left:20px;
 }
 
 .newmember-photo2{
@@ -153,18 +153,14 @@
 
 .newmember-name{
   margin-top:10px;
-  margin-left:10px;
+  margin-left:20px;
   float:left;
 }
 
 .newmember-name2{
   margin-top:10px;
-  margin-left:45px;
+  margin-left:50px;
   float:left;
-}
-
-.newmember-name3{
-  margin-top:10px;
 }
 
 #pills-home-tab{
@@ -207,4 +203,14 @@
 
 .submit-button:hover{
   background-color:orange;
+}
+
+.house-pic{
+  cursor: pointer;
+  margin-top:30px;
+}
+
+.house-image{
+  width:400px;
+  margin-top:30px;
 }
