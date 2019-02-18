@@ -58,7 +58,7 @@
                       <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Αρχική</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Επεξεργασία προφίλ</a>
+                      <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Φωτογραφίες Σπιτιού</a>
                     </li>
                     </ul>
               </div>
@@ -189,174 +189,76 @@
               </div>
             </div>
 
+            <div class="offset-md-1 col-md-2">
+              <form action="">
+                <input class="submit-button3" type="submit" name="submit" value="Γίνε Συγκάτοικος"/>
+              </form>
+            </div>
+
 
           </div>
 
       </div>
 
-            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                <div class="col-md-12 grayspace2">
-                    <div class="offset-md-1 col-md-7">
-                      <h4 class="profile-information">Επεξεργασία Προφίλ</h4>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="col-md-12 grayspace3">
+                <div class="offset-md-1 col-md-10">
+                  <h4 class="profile-information">Φωτογραφίες</h4>
+                </div>
+                <div class="offset-md-1 col-md-10">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <label for="house-pic" class="house-pic" ><img src="images/photo.png"/></label>
+                    <form action="">
+                      <input id="house-pic" type="file" name="housePic" accept="image/*"/>
+                    </form>
                     </div>
 
-                    <div class="offset-md-1 col-md-7 profile-input">
-                      <div class="row">
-                        <div class="col-md-3">
-                          <p class="profile-info">Όνομα</p>
-                        </div>
-                    <div class="offset-md-1 col-md-4">
-                      <form action="">
-                        <input class="edit-input" type="text" name="name" />
-                      </form>
-                    </div>
-                      </div>
+                    <div class="offset-md-1 col-md-3">
+                      <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
                     </div>
 
-                    <div class="offset-md-1 col-md-7 profile-input2">
-                      <div class="row">
-                        <div class="col-md-2">
-                          <p class="profile-info">Κωδικος</p>
-                        </div>
-                    <div class="offset-md-2 col-md-4">
-                      <form action="">
-                        <input class="edit-input" type="password" name="password" />
-                      </form>
+                    <div class="offset-md-1 col-md-3">
+                      <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
                     </div>
-                      </div>
-                    </div>
-
-                    <div class="offset-md-1 col-md-7 profile-input3">
-                      <div class="row">
-                        <div class="col-md-3">
-                          <p class="profile-info">Ημερομηνια Γέννησης</p>
-                        </div>
-                    <div class="offset-md-1 col-md-4">
-                      <form action="">
-                        <input class="edit-input" type="text" name="birthday" />
-                      </form>
-                    </div>
-                      </div>
-                    </div>
-
-                    <div class="offset-md-1 col-md-7 profile-input2">
-                      <div class="row">
-                        <div class="col-md-3">
-                          <p class="profile-info">Πόλη</p>
-                        </div>
-                    <div class="offset-md-1 col-md-4">
-                      <form action="">
-                        <input class="edit-input" type="text" name="city" />
-                      </form>
-                    </div>
-                      </div>
-                    </div>
-
-                    <div class="offset-md-1 col-md-7 profile-input3">
-                      <div class="row">
-                        <div class="col-md-3">
-                          <p class="profile-info">Φύλο</p>
-                        </div>
-                    <div class="offset-md-1 col-md-4">
-                      <form action="">
-                        <input class="radio" type="radio" name="gender" value="male" /> Άντρας
-                        <input class="radio" type="radio" name="gender" value="female" /> Γυναίκα
-                      </form>
-                    </div>
-                      </div>
-                    </div>
-
-                    <div class="offset-md-1 col-md-7 profile-input2">
-                      <div class="row">
-                        <div class="col-md-3">
-                          <p class="profile-info">Ψάχνει για</p>
-                        </div>
-                    <div class="offset-md-1 col-md-4">
-                      <form action="">
-                        <input class="radio" type="radio" name="lookingFor" value="house" /> Σπίτι
-                        <input class="radio" type="radio" name="lookingFor" value="roomate" /> Συγκάτοικο
-                      </form>
-                    </div>
-                      </div>
-                    </div>
-
-                    <div class="offset-md-1 col-md-7 profile-input3">
-                      <div class="row">
-                        <div class="col-md-3">
-                          <p class="profile-info">Χόμπυ</p>
-                        </div>
-                    <div class="offset-md-1 col-md-8">
-                      <form action="">
-                        <input class="checkbox" type="checkbox" name="athlete" /> Αθλητισμός
-                        <input class="checkbox" type="checkbox" name="travel"  /> Ταξίδια
-                        <input class="checkbox" type="checkbox" name="boardgame" /> Επιτραπέζια
-                        <input class="checkbox" type="checkbox" name="movies"  /> Ταινίες
-                        <input class="checkbox" type="checkbox" name="books"  /> Βιβλία
-                        <input class="checkbox" type="checkbox" name="music"  /> Μουσική
-                      </form>
-                    </div>
-                      </div>
-                    </div>
-
-                    <div class="offset-md-1 col-md-7 profile-input2">
-                      <div class="row">
-                        <div class="col-md-3">
-                          <p class="profile-info">Καπνιστής</p>
-                        </div>
-                    <div class="offset-md-1 col-md-4">
-                      <form action="">
-                        <input class="radio" type="radio" name="smokeYes" value="yes" /> Ναί
-                        <input class="radio" type="radio" name="smokeNo" value="no" /> Όχι
-                      </form>
-                    </div>
-                      </div>
-                    </div>
-
-                    <div class="offset-md-1 col-md-7 profile-input3">
-                      <div class="row">
-                        <div class="col-md-3">
-                          <p class="profile-info">Φωτογραφία Προφίλ</p>
-                        </div>
-                    <div class="offset-md-1 col-md-4">
-                      <form action="">
-                        <input class="edit-input" type="file" name="profilePic" accept="image/*" />
-                      </form>
-                    </div>
-                      </div>
-                    </div>
-
-                    <div class="offset-md-1 col-md-7 profile-input2">
-                      <div class="row">
-                        <div class="col-md-3">
-                          <p class="profile-info">Φωτογραφία Εξωφύλου</p>
-                        </div>
-                    <div class="offset-md-1 col-md-4">
-                      <form action="">
-                        <input class="edit-input" type="file" name="coverPic" accept="image/*" />
-                      </form>
-                    </div>
-                      </div>
-                    </div>
-
-                    <div class="offset-md-4 col-md-2">
-                      <div class="row">
-                        <div class="offset-md-2 col-md-2">
-                          <form action="">
-                            <input class="submit-button" type="submit" name="submit" value="Αποθήκευση"/>
-                          </form>
-                        </div>
-                        <div class="offset-md-5 col-md-2">
-                          <form action="">
-                            <input class="submit-button2" type="submit" name="logOut" value="Αποσύνδεση"/>
-                          </form>
-                        </div>
-                      </div>
-                    </div>
-
-
+                </div>
                 </div>
 
+                <div class="offset-md-1 col-md-10">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
+                    </div>
+
+                    <div class="offset-md-1 col-md-3">
+                      <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
+                    </div>
+
+                    <div class="offset-md-1 col-md-3">
+                      <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
+                    </div>
+                </div>
+                </div>
+
+                <div class="offset-md-1 col-md-10">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
+                    </div>
+
+                    <div class="offset-md-1 col-md-3">
+                      <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
+                    </div>
+
+                    <div class="offset-md-1 col-md-3">
+                      <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
+                    </div>
+                </div>
+                </div>
             </div>
+        </div>
+
+
                   </div>
             </div>
         </div>

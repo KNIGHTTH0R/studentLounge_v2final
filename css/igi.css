@@ -60,7 +60,7 @@
 
 .grayspace{
   background-color: lightgray;
-  height:600px;
+  height:700px;
 }
 
 .grayspace2{
@@ -191,18 +191,51 @@
 }
 
 .submit-button{
-  margin-top:30px;
-  background-color:#007bff;
+  margin-top:50px;
+  background-color:orange;
   border:none;
   display:inline-block;
   text-align:center;
   padding:15px 32px;
   text-decoration:none;
   cursor:pointer;
+  margin-left:100px;
+}
+
+.submit-button2{
+  margin-top:50px;
+  background-color:#ff6060;
+  border:none;
+  display:inline-block;
+  text-align:center;
+  padding:15px 32px;
+  text-decoration:none;
+  cursor:pointer;
+  margin-left:140px;
+}
+
+.submit-button3{
+  margin-top:50px;
+  background-color:orange;
+  border:none;
+  display:inline-block;
+  text-align:center;
+  padding:15px 32px;
+  text-decoration:none;
+  cursor:pointer;
+
 }
 
 .submit-button:hover{
-  background-color:orange;
+  background-color:#007bff;
+}
+
+.submit-button2:hover{
+  background-color:red;
+}
+
+.submit-button3:hover{
+  background-color:#007bff;
 }
 
 .house-pic{
