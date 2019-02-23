@@ -5,8 +5,12 @@ $('.burger, .overlay').click(function() {
     $('body').toggleClass('overflow');
 });
 
-$(document).ready(function(){
-  $('.ask-us').animate({right: '0'}, {duration: 1800});
+$(document).ready(function() {
+    $('.ask-us').animate({
+        right: '0'
+    }, {
+        duration: 1800
+    });
 
-    $('.bg-text').fadeoIn(2000).removeClass('hidden');
+    $('.bg-text').fadeIn(2000).removeClass('hidden');
 });

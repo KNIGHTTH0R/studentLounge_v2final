@@ -2,10 +2,11 @@
 include("includes/header.php");
 SESSION_START();
 ?>
+<!-- section 1 after nav -->
 <div class="section-1">
     <div class="row ">
         <div class="offset-md-1 col-md-5 col-sm-12 ">
-
+            <!-- form ask us in section 1 -->
             <form class="ask-us">
                 <div class="form-group">
                     <input type="text" class="form-control" id="exampleInputName" placeholder="Όνομα">
@@ -34,6 +35,7 @@ SESSION_START();
         </div>
     </div>
 </div>
+<!-- section 2 with 3 cards  -->
 <div class="section4 ">
     <div class="row ">
         <div class="offset-1 col-md-3 text-center fix-align shadow-drop-2-center ">
@@ -61,6 +63,7 @@ SESSION_START();
         </div>
     </div>
 </div>
+<!-- section 3 meet our new members -->
 <div class="section-2">
     <div class="row">
         <div class="col-md-12">
@@ -95,6 +98,7 @@ SESSION_START();
         </div>
     </div>
 </div>
+<!-- section 4 image with text -->
 <div class="section5 ">
     <div class="row ">
         <div class="col-md-5  section-5-img">
@@ -113,6 +117,7 @@ SESSION_START();
 
     </div>
 </div>
+<!-- section 5 student lounge logo with text -->
 <div class="section3">
     <div class="row">
         <div class="col-md-12 img-section-3 text-center">
@@ -121,11 +126,11 @@ SESSION_START();
             <div class="row ">
                 <div class="offset-md-3 col-md-6 ">
                     <h5 class="bg-text-section3">Θέλουμε έναν κόσμο που ενθαρρύνει την εμπιστοσύνη, την περιπέτεια και τις διαπολιτισμικές συνδέσεις.Η προθυμία μας να βοηθήσουμε ο ένας τον άλλον είναι καθολική. Το StudentLounge είναι εντελώς δωρεάν και θα παραμείνει για πάντα.Πιστεύουμε
-                    στην ομορφιά, την απλότητα και τη διαφάνεια.Δίνουμε έμφαση στην κοινότητα.</h5>
+                        στην ομορφιά, την απλότητα και τη διαφάνεια.Δίνουμε έμφαση στην κοινότητα.</h5>
                 </div>
             </div>
             <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#MemberModalCenter">Γίνε
-            μέλος</button>
+                μέλος</button>
         </div>
     </div>
 </div>
@@ -146,4 +151,4 @@ include("includes/modal.php");
 
 </body>
 
-</html>
+</html> 

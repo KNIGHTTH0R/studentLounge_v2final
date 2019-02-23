@@ -4,11 +4,17 @@
     box-sizing: border-box;
 }
 
+
+/* container for all pages */
+
 .container-fluid {
     padding-right: 0;
     padding-left: 0;
     overflow: hidden;
 }
+
+
+/* navigation  */
 
 nav {
     width: 100%;
@@ -49,6 +55,12 @@ nav {
     margin-right: 20px;
 }
 
+
+/* nav end here */
+
+
+/* section 1 start here */
+
 .section-1 {
     background: linear-gradient(to right bottom, rgba(126, 121, 143, 0.8), rgba(140, 137, 156, 0.8)), url(../images/roberto-nickson-g-772172-unsplash.jpg);
     background-size: cover;
@@ -60,12 +72,15 @@ nav {
     background-size: cover;
 }
 
+
+/* section 1 big text  */
+
 .bg-text {
     color: rgb(255, 255, 255);
     margin-left: 3%;
     margin-top: 30px;
     margin-right: 5%;
-    display:none;
+    display: none;
 }
 
 .center-bg-text {
@@ -77,6 +92,9 @@ nav {
     margin-left: 3%;
 }
 
+
+/* ask us form here */
+
 .ask-us {
     margin-bottom: 10%;
     margin-top: 10%;
@@ -84,9 +102,9 @@ nav {
     width: 90%;
     background-color: rgba(56, 51, 71, 0.555);
     border-radius: 10px;
-    position:relative;
-    display:inline-block;
-    right:110%;
+    position: relative;
+    display: inline-block;
+    right: 110%;
 }
 
 .form-control {
@@ -105,6 +123,9 @@ nav {
     color: white;
 }
 
+
+/* learn more btn */
+
 .btn-section1 {
     margin-bottom: 30px;
 }
@@ -114,10 +135,16 @@ nav {
     margin-top: 30px;
 }
 
+
+/* meet our new members imgs */
+
 .img-thumbnail {
     margin-left: 10px;
     margin-top: 30px;
 }
+
+
+/* btn meet our new members section */
 
 .btn-section2 {
     margin-top: 30px;
@@ -127,6 +154,9 @@ nav {
 .section3 .row .btn-primary {
     margin-top: 30px;
 }
+
+
+/* section 5 big image with white logo */
 
 .img-section-3 {
     background-image: url(../images/baim-hanif-89800-unsplash.jpg);
@@ -145,11 +175,17 @@ nav {
     padding: 50px;
 }
 
+
+/* fix align bug */
+
 .fix-align {
     background-color: rgba(56, 51, 71, 0.589);
     margin-right: -5%;
     padding: 10px;
 }
+
+
+/* animation for cards  */
 
 .shadow-drop-2-center {
     animation: shadow-drop-2-center .4s cubic-bezier(.25, .46, .45, .94) both
@@ -167,6 +203,9 @@ nav {
         box-shadow: 0 0 20px 0 rgba(0, 0, 0, .35)
     }
 }
+
+
+/* small icons from  section 2 */
 
 .small-icon-2 {
     width: 150px;
@@ -211,7 +250,10 @@ nav {
 }
 
 
-/* footer */
+/* index end here */
+
+
+/* footer  start here*/
 
 footer {
     background-color: #3b354d;
@@ -256,7 +298,7 @@ footer .nav {
 }
 
 
-/* contact css */
+/* contact us css */
 
 .contact {
     background: linear-gradient(to right bottom, rgb(41, 35, 59), rgba(41, 35, 59, 0.76));
@@ -307,6 +349,9 @@ footer .nav {
     margin-top: 50px;
     height: 70px;
 }
+
+
+/* contact us end here */
 
 
 /* about us */
@@ -391,7 +436,10 @@ footer .nav {
 }
 
 
-/* explore page */
+/* about us end here */
+
+
+/* explore page start here */
 
 .explore-container {
     background-color: #F0EBEB;
@@ -449,6 +497,12 @@ footer .nav {
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
 }
 
+
+/* explore end here */
+
+
+/* am looking for apartment or someone start here*/
+
 .looking-for-h1 {
     text-align: center;
     margin-top: 150px;
@@ -476,6 +530,9 @@ footer .nav {
     background-color: rgba(41, 35, 59, 0.911);
     text-decoration: none;
 }
+
+
+/* am looking for end here */
 
 
 /* all burger menu here */
@@ -763,8 +820,8 @@ body.overflow {
         padding: 20px;
     }
     .btn-contact-send {
-        margin-top: 25px!important;
-        height: 45px!important;
+        margin-top: 25px !important;
+        height: 45px !important;
     }
     .burg ul.main {
         margin-left: -30px;
