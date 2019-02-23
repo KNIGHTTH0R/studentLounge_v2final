@@ -4,3 +4,9 @@ $('.burger, .overlay').click(function() {
     $('.burg').toggleClass('show');
     $('body').toggleClass('overflow');
 });
+
+$(document).ready(function(){
+  $('.ask-us').animate({right: '0'}, {duration: 1800});
+
+    $('.bg-text').fadeoIn(2000).removeClass('hidden');
+});
