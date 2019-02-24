@@ -20,7 +20,7 @@
                 <div class="offset-md-1 col-md-2">
                     <img class="logo image-fluid" src="images/logo.png" alt="image-responsive">
                 </div>
-                <div class="offset-md-2 col-md-4">
+                <div class="offset-md-1 col-md-6">
                     <ul class="nav justify-content-end">
                         <li class="nav-item ">
                             <a class="nav-link" href="explore.php">Ανακάλυψε</a>
@@ -31,14 +31,17 @@
                         <li class="nav-item">
                             <a class="nav-link" href="contact.php">Επικοινωνία</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="profile.php">Προφίλ</a>
+                        </li>
                     </ul>
                 </div>
-                <div class="col-md-3">
-                    <a href="php/logout.php" class="btn btn-primary" >
+                <div class="col-md-2">
+                    <a href="php/logout.php" class="btn btn-primary">
                         Αποσύνδεση
 
                     </a>
-                    
+
                 </div>
             </div>
-        </nav>
+        </nav> 
