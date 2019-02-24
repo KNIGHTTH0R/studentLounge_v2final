@@ -106,7 +106,7 @@ if (!isset($_SESSION['password'])) {
                 <div class="card-explore explore-member-card">
                     <img class="img-fluid explore-member-img" src="images/avatar1.png" alt="responsive-image" style="width:100%">
                     <div class="team-box">
-                        <h4 class="explore-card-h4"><b>ΠΑΡΗΣ ΚΑΡΑΜΠΑΣ</b></h4>
+                        <h4><b>ΠΑΡΗΣ ΚΑΡΑΜΠΑΣ</b></h4>
                         <p>21 Tρίκαλα</p>
                     </div>
                 </div>
@@ -115,7 +115,7 @@ if (!isset($_SESSION['password'])) {
                 <div class="card-explore explore-member-card">
                     <img class="img-fluid explore-member-img" src="images/43914576_262438344454636_2728703683628892160_n.jpg" alt="responsive-image" style="width:100%">
                     <div class="team-box">
-                        <h4 class="explore-card-h4"><b>ΠΑΡΗΣ ΚΑΡΑΜΠΑΣ</b></h4>
+                        <h4><b>ΠΑΡΗΣ ΚΑΡΑΜΠΑΣ</b></h4>
                         <p>21 Tρίκαλα</p>
                     </div>
                 </div>
@@ -124,7 +124,7 @@ if (!isset($_SESSION['password'])) {
                 <div class="card-explore explore-member-card">
                     <img class="img-fluid explore-member-img" src="images/avatar1.png" alt="responsive-image" style="width:100%">
                     <div class="team-box">
-                        <h4 class="explore-card-h4"><b>ΠΑΡΗΣ ΚΑΡΑΜΠΑΣ</b></h4>
+                        <h4><b>ΠΑΡΗΣ ΚΑΡΑΜΠΑΣ</b></h4>
                         <p>21 Tρίκαλα</p>
                     </div>
                 </div>
@@ -133,7 +133,7 @@ if (!isset($_SESSION['password'])) {
                 <div class="card-explore explore-member-card">
                     <img class="img-fluid explore-member-img" src="images/avatar1.png" alt="responsive-image" style="width:100%">
                     <div class="team-box">
-                        <h4 class="explore-card-h4"><b>ΠΑΡΗΣ ΚΑΡΑΜΠΑΣ</b></h4>
+                        <h4><b>ΠΑΡΗΣ ΚΑΡΑΜΠΑΣ</b></h4>
                         <p>21 Tρίκαλα</p>
                     </div>
                 </div>

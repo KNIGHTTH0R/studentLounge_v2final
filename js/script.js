@@ -5,6 +5,7 @@ $('.burger, .overlay').click(function() {
     $('body').toggleClass('overflow');
 });
 
+<<<<<<< HEAD
 $(document).ready(function(){
   $('.ask-us').animate({'margin-left' : '0', opacity: '1'}, {duration: 1800});
 
@@ -115,3 +116,14 @@ $(window).scroll( function(){
 
 
   });
+=======
+$(document).ready(function() {
+    $('.ask-us').animate({
+        right: '0'
+    }, {
+        duration: 1800
+    });
+
+    $('.bg-text').fadeIn(2000).removeClass('hidden');
+});
+>>>>>>> 4ea1ccb66e30d75fa124d2e5865f7069a367c13b

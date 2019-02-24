@@ -21,26 +21,18 @@
                         <input type="phone" class="form-control" id="exampleInputphone" placeholder="Tηλέφωνο" name="phone">
                     </div>
                     <div class="form-group">
-                        <select id="inputState" class="form-control">
+                        <select id="inputState" class="form-control" name="gender">
                             <option selected>Φύλο</option>
-                            <option>Άνδρας</option>
-                            <option>Γυναίκα</option>
-                            <option>Άλλο</option>
+                            <option value="Άνδρας">Άνδρας</option>
+                            <option value="Γυναίκα">Γυναίκα</option>
+                            <option value="Άλλο">Άλλο</option>
                         </select>
                     </div>
                     <p class="dateOfBirth">Ημερομήνια Γέννησης</p>
 
                     <div class="form-row">
-                        <div class="form-group col-md-4">
-                            <input type="text" class="form-control" placeholder="Ημέρα">
-
-                        </div>
-                        <div class="form-group col-md-4">
-                            <input type="text" class="form-control" placeholder="Μήνας">
-
-                        </div>
-                        <div class="form-group col-md-4">
-                            <input type="text" class="form-control" placeholder="Xρόνος">
+                        <div class="form-group col-md-12">
+                            <input type="text" class="form-control" placeholder="00/00/0000" name="dateofbirth">
                         </div>
                     </div>
                     <div class="form-row">
@@ -63,7 +55,7 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-body">
-                <form class="becameMember ask-us"  action="php/DoLogin.php" method="POST">
+                <form class="becameMember ask-us"  action="php/dologin.php" method="POST">
                     <div class="form-group">
                         <input type="text" class="form-control" id="exampleInputName3" placeholder="Username" name="username">
                     </div>
@@ -83,14 +75,17 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-body">
-                <form class="becameMember ask-us"  action="php/DoLogin.php" method="POST">
+                <form class="becameMember ask-us"  action="php/ForgotPassword.php" method="POST">
                     <div class="form-group">
                         <input type="text" class="form-control" id="exampleInputName3" placeholder="Όνομα χρήστη" name="username">
                     </div>
                     <div class="form-group ">
-                        <input type="text" class="form-control" id="inputPassword4 " placeholder="Email" name="password">
+                        <input type="text" class="form-control" id="inputPassword4 " placeholder="Email" name="email">
                     </div>
-                    <button type="submit" class="btn btn-warning btn-lg btn-section1">Σύνδεση</button>
+                    <div class="form-group ">
+                        <input type="text" class="form-control" id="inputPassword4 " placeholder="Συμπλήρωσε ξανα το Email" name="reemail">
+                    </div>
+                    <button type="submit" name="Submit" class="btn btn-warning btn-lg btn-section1">Επαναφορά</button>
                 </form>
             </div>
 

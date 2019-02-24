@@ -11,6 +11,8 @@ $email = $_POST['email'];
 $phone = $_POST['phone'];
 $password = $_POST['password'];
 $repassword = $_POST['repassword'];
+$gender = $_POST['gender'];
+$dateofbirth = $_POST['dateofbirth'];
 
 //Functions that checks if registration fields are correct.
 
@@ -33,8 +35,8 @@ usernameCheck();
 //create user
 global $error;
 if ($error == 0){
-	$query = "INSERT INTO users (user_username,user_password, user_firstName, user_lastName, user_email ,user_phone) 
-	VALUES ('$username', '$password', '$firstname', '$lastname', '$email', '$phone')";
+	$query = "INSERT INTO users (user_username,user_password, user_firstName, user_lastName, user_email ,user_phone, user_gender, user_dateofbirth) 
+	VALUES ('$username', '$password', '$firstname', '$lastname', '$email', '$phone', '$gender', '$dateofbirth')";
 
 	if ($conn->query($query) === TRUE) {
 		echo "<br/>"."You have registered successfully :)";
@@ -53,4 +55,4 @@ if ($error == 0){
 
 ?>
 
-?>
+
