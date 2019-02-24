@@ -550,7 +550,98 @@ footer .nav {
     color: white;
     margin-bottom: 30px;
     text-align: center;
-    margin-left: 40%;
+    margin-left: 39%;
+}
+
+.section-header {
+    margin-bottom: 60px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.section-header::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 5px;
+    background: #f82249;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+
+.section-header h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.section-header p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #9195a2;
+}
+
+.subscribe {
+    padding: 25vh 0;
+    background: url("../images/roberto-nickson-g-772172-unsplash.jpg") center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    min-height: 100vh;
+}
+
+.subscribe:before {
+    content: "";
+    background: rgba(6, 12, 34, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.subscribe .section-header h2,
+.subscribe p {
+    color: #fff;
+}
+
+.subscribe input {
+    background: #fff;
+    color: #060c22;
+    border: 0;
+    outline: none;
+    margin: 0;
+    padding: 9px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+}
+
+.subscribe button {
+    border: 0;
+    padding: 9px 25px;
+    cursor: pointer;
+    background: #f82249;
+    color: #fff;
+    transition: all 0.3s ease;
+    outline: none;
+    font-size: 14px;
+    border-radius: 50px;
+}
+
+.subscribe button:hover {
+    background: #e0072f;
+}
+
+@media only screen and (min-width: 768px) {
+    .subscribe input {
+        min-width: 400px;
+    }
 }
 
 
@@ -792,6 +883,12 @@ body.overflow {
     .burger {
         visibility: visible;
     }
+    .btn-new-users {
+        margin-left: 37%;
+    }
+    .explore-card-h4 {
+        font-size: 12px;
+    }
 }
 
 @media only screen and (max-width:1250px) {
@@ -811,7 +908,7 @@ body.overflow {
 
 @media only screen and (max-width:760px) {
     /* index rerspons */
-    .ask-us {
+    .ask-us-home {
         display: none;
     }
     .section-1 {
@@ -845,14 +942,18 @@ body.overflow {
     .burg ul.main {
         margin-left: -30px;
     }
+    .btn-new-users {
+        margin-left: 32%;
+    }
+    .explore-form {
+        margin-left: 0;
+        margin: 30px;
+    }
 }
 
 @media only screen and (max-width:450px) {
     .btn-burger {
         margin-left: 0px;
-    }
-    .section-1 {
-        height: 50vh !important;
     }
     .section2,
     .container,
@@ -862,6 +963,9 @@ body.overflow {
     .bg-text {
         margin-top: 0;
         font-size: 15pt;
+    }
+    .about-us-logo {
+        height: 70px;
     }
     .fix-align {
         margin: 0;
@@ -890,5 +994,18 @@ body.overflow {
     /*  contact us response */
     .contact-us-girl {
         display: none;
+    }
+    /* new users response */
+    .btn-new-users {
+        margin-left: 20%;
+    }
+}
+
+@media only screen and (max-width:380px) {
+    .btn-new-users {
+        margin-left: 10%;
+    }
+    .about-us-logo {
+        height: 40px;
     }
 }

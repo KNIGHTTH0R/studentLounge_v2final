@@ -39,7 +39,6 @@
                 <div class="col-md-2">
                     <a href="php/logout.php" class="btn btn-primary">
                         Αποσύνδεση
-
                     </a>
 
                 </div>

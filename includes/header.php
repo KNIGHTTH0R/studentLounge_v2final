@@ -7,41 +7,41 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-   
+
     <title>Document</title>
 </head>
 
 <body>
     <div class="container-fluid">
         <nav>
-        <div class="burger">
-            <span></span>
-        </div>
-        <nav class="burg">
-            <ul class="main">
-                <li>
-                    <a href="index.php">Αρχική</a>
-                </li>
-                <li>
-                    <a href="about-us.php">Σχετικά με εμάς</a>
-                </li>
-                <li>
-                    <a href="contact.php">Επικοινωνία</a>
-                </li>
-            </ul>
-            <div class="btn-burger">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#MemberModalCenter">Γίνε
-                    μέλος
-
-                </button>
-                <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#LoginModalCenter">Σύνδεση</button>
+            <div class="burger">
+                <span></span>
             </div>
-        </nav>
+            <nav class="burg">
+                <ul class="main">
+                    <li>
+                        <a href="index.php">Αρχική</a>
+                    </li>
+                    <li>
+                        <a href="about-us.php">Σχετικά με εμάς</a>
+                    </li>
+                    <li>
+                        <a href="contact.php">Επικοινωνία</a>
+                    </li>
+                </ul>
+                <div class="btn-burger">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#MemberModalCenter">Γίνε
+                        μέλος
 
-        <div class="overlay"></div>
+                    </button>
+                    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#LoginModalCenter">Σύνδεση</button>
+                </div>
+            </nav>
+
+            <div class="overlay"></div>
             <div class="row">
                 <div class="offset-md-1 col-md-2">
-                    <img class="logo image-fluid" src="images/logo.png" alt="image-responsive">
+                    <a href="index.php"> <img class="logo image-fluid" src="images/logo.png" alt="img-responsive"></a>
                 </div>
                 <div class="offset-md-2 col-md-4">
                     <ul class="nav justify-content-end">
@@ -63,4 +63,4 @@
                     <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#LoginModalCenter">Σύνδεση</button>
                 </div>
             </div>
-        </nav>
+        </nav> 
