@@ -1,15 +1,13 @@
 <?php
 SESSION_start();
-if (!isset($_SESSION['password'])){
+if (!isset($_SESSION['password'])) {
     include("includes/header.php");
     header("Location:index.php");
-
-
-}else {
+} else {
     include("includes/loggedinheader.php");
 }
 ?>
-
+<!-- search filter aside -->
 <div class="row">
     <div class=" col-md-3">
         <form class="explore-form">
@@ -41,15 +39,6 @@ if (!isset($_SESSION['password'])){
                     <option>Γυναίκα</option>
                     <option>Άλλο</option>
                 </select>
-            </div>
-            <span class="explore-filters-text"><b>Τιμή</b> </span>
-            <div class="row">
-                <div class="col">
-                    <input type="text" class="form-control" placeholder=" Από..">
-                </div>
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="Εώς..">
-                </div>
             </div>
             <p class="explore-filters-text">Ψάχνω για συγκάτοικο με:
             </p>
@@ -103,17 +92,21 @@ if (!isset($_SESSION['password'])){
             <button type="submit" class="btn btn-warning btn-lg">Αναζήτηση</button>
         </form>
     </div>
+    <!-- filters end here -->
+    <!-- search bar  -->
     <div class="col-md-8">
         <div class="search">
             <span class="fa fa-search"></span>
             <input type="text" class="form-control explore-search" placeholder="Αναζητήσε ατομα" />
         </div>
+        <!-- search bar end here -->
+        <!-- members card start here -->
         <div class="row">
             <div class="col-md-3">
                 <div class="card explore-member-card">
                     <img class="img-fluid explore-member-img" src="images/avatar1.png" alt="responsive-image" style="width:100%">
                     <div class="team-box">
-                        <h4><b>ΠΑΡΗΣ ΚΑΡΑΜΠΑΣ</b></h4>
+                        <h4 class="explore-card-h4"><b>ΠΑΡΗΣ ΚΑΡΑΜΠΑΣ</b></h4>
                         <p>21 Tρίκαλα</p>
                     </div>
                 </div>
@@ -122,7 +115,7 @@ if (!isset($_SESSION['password'])){
                 <div class="card explore-member-card">
                     <img class="img-fluid explore-member-img" src="images/43914576_262438344454636_2728703683628892160_n.jpg" alt="responsive-image" style="width:100%">
                     <div class="team-box">
-                        <h4><b>ΠΑΡΗΣ ΚΑΡΑΜΠΑΣ</b></h4>
+                        <h4 class="explore-card-h4"><b>ΠΑΡΗΣ ΚΑΡΑΜΠΑΣ</b></h4>
                         <p>21 Tρίκαλα</p>
                     </div>
                 </div>
@@ -131,7 +124,7 @@ if (!isset($_SESSION['password'])){
                 <div class="card explore-member-card">
                     <img class="img-fluid explore-member-img" src="images/avatar1.png" alt="responsive-image" style="width:100%">
                     <div class="team-box">
-                        <h4><b>ΠΑΡΗΣ ΚΑΡΑΜΠΑΣ</b></h4>
+                        <h4 class="explore-card-h4"><b>ΠΑΡΗΣ ΚΑΡΑΜΠΑΣ</b></h4>
                         <p>21 Tρίκαλα</p>
                     </div>
                 </div>
@@ -140,7 +133,7 @@ if (!isset($_SESSION['password'])){
                 <div class="card explore-member-card">
                     <img class="img-fluid explore-member-img" src="images/avatar1.png" alt="responsive-image" style="width:100%">
                     <div class="team-box">
-                        <h4><b>ΠΑΡΗΣ ΚΑΡΑΜΠΑΣ</b></h4>
+                        <h4 class="explore-card-h4"><b>ΠΑΡΗΣ ΚΑΡΑΜΠΑΣ</b></h4>
                         <p>21 Tρίκαλα</p>
                     </div>
                 </div>
@@ -155,4 +148,4 @@ if (!isset($_SESSION['password'])){
 </div>
 </body>
 
-</html>
+</html> 
