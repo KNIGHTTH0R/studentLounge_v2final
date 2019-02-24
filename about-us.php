@@ -9,13 +9,13 @@ if (!isset($_SESSION['password'])) {
 <div class="about-us">
     <div class="row">
         <div class="col-md-12 d-flex justify-content-center">
-            <img src="images/logowhiteedition.png" class="img-fluid about-us-logo" alt="responsive-img">
+            <img src="images/logowhiteedition.png" class="image-fluid about-us-logo" alt="responsive-img">
         </div>
     </div>
     <div class="row">
         <div class="col-md-12">
             <button type="button" class="text-center btn btn-outline-light btn-lg about-us-btn d-flex align-items-center">ΑΝΑΚΑΛΥΨΤΕ
-            ΜΑΣ</button>
+                ΜΑΣ</button>
         </div>
     </div>
 </div>
@@ -29,7 +29,7 @@ if (!isset($_SESSION['password'])) {
             <h3 class="about-us-h1">ΠΡΟΣΠΑΘΟΥΜΕ ΚΑΘΗΜΕΡΙΝΑ ΝΑ ΒΕΛΤΙΩΣΟΥΜΕ ΤΗΝ ΚΑΘΗΜΕΡΙΝΗ ΣΑΣ ΕΜΠΕΙΡΙΑ</h3>
             <p class="about-us-text">Στόχος μας ειναι να βελτιώσουμε το StudentLounge και να γίνουμε ένα ισχυρό εργαλείο για όλους τους φοιτητες που ψαχνουν συγκάτοικο</p>
             <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#MemberModalCenter">Γίνε
-            Μέλος</button>
+                Μέλος</button>
         </div>
     </div>
 </div>
@@ -83,8 +83,4 @@ include("includes/modal.php");
 
 </body>
 
-<<<<<<< HEAD
 </html>
-=======
-</html>
->>>>>>> 4ea1ccb66e30d75fa124d2e5865f7069a367c13b

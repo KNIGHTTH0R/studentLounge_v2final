@@ -7,7 +7,7 @@ SESSION_START();
     <div class="row ">
         <div class="offset-md-1 col-md-5 col-sm-12 ">
             <!-- form ask us in section 1 -->
-            <form class="ask-us">
+            <form class="ask-us ask-us-home">
                 <div class="form-group">
                     <input type="text" class="form-control" id="exampleInputName" placeholder="Όνομα">
                 </div>
@@ -30,7 +30,7 @@ SESSION_START();
                 </h1>
                 <h5 class="bg-text">Γίνε μέλος στο ProjectLounge για να βρείς τον συγκάτοικο που επιθυμείς να περάσεις την φοιτητική σου περίοδο
                 </h5>
-                <button type="button" class="btn btn-primary">Μάθε περισσότερα...</button>
+                <button type="button" class="btn btn-primary fadebtn">Μάθε περισσότερα...</button>
             </div>
         </div>
     </div>
@@ -93,7 +93,7 @@ SESSION_START();
         </div>
         <div class="row">
             <div class="col-md-12 text-center">
-                <button type="submit" class="btn btn-primary btn-lg  btn-section2">Αναζήτηστε άτομα</button>
+                <button type="submit" href="new_users.html" class="btn btn-primary btn-lg  btn-section2">Αναζήτηστε άτομα</button>
             </div>
         </div>
     </div>
@@ -104,7 +104,7 @@ SESSION_START();
         <div class="col-md-5  section-5-img">
             <img class="img-fluid small-icon" src="images/advice.png" alt="responsive-img">
         </div>
-        <div class="col-md-5">
+        <div class="col-md-5 animation-text">
             <h2 class="bg-text-section3-3">Συμβουλές για τα νέα μέλη
             </h2>
             <ul class="section-5-ul">
@@ -134,7 +134,7 @@ SESSION_START();
         </div>
     </div>
 </div>
-<?php 
+<?php
 include("includes/footer.php");
 include("includes/modal.php");
 ?>

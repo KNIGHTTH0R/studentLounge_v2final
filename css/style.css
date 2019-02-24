@@ -102,9 +102,8 @@ nav {
     width: 90%;
     background-color: rgba(56, 51, 71, 0.555);
     border-radius: 10px;
-    position: relative;
-    display: inline-block;
-    right: 110%;
+    margin-left: -30%;
+    opacity: 0;
 }
 
 .form-control {
@@ -121,6 +120,10 @@ nav {
 
 .form-control:focus {
     color: white;
+}
+
+.fadebtn {
+    display: none;
 }
 
 
@@ -141,6 +144,7 @@ nav {
 .img-thumbnail {
     margin-left: 10px;
     margin-top: 30px;
+    width: 5px;
 }
 
 
@@ -149,6 +153,7 @@ nav {
 .btn-section2 {
     margin-top: 30px;
     margin-bottom: 30px;
+    display: none;
 }
 
 .section3 .row .btn-primary {
@@ -175,13 +180,14 @@ nav {
     padding: 50px;
 }
 
-
-/* fix align bug */
-
 .fix-align {
     background-color: rgba(56, 51, 71, 0.589);
     margin-right: -5%;
     padding: 10px;
+    position: relative;
+    display: inline-block;
+    opacity: 0;
+    top: 30%;
 }
 
 
@@ -208,23 +214,30 @@ nav {
 /* small icons from  section 2 */
 
 .small-icon-2 {
-    width: 150px;
+    width: 5px;
     margin-left: 5%;
 }
 
 .small-icon {
     width: 300px;
-    margin-left: 20%;
+    margin-left: -20%;
+    opacity: 0;
 }
 
 .bg-text-section3 {
     color: white;
     margin-top: 50px;
+    opacity: 0;
 }
 
 .bg-text-section3-3 {
     color: white;
     margin-top: 70px;
+}
+
+.animation-text {
+    margin-left: 10%;
+    opacity: 0;
 }
 
 .section5 {
@@ -573,7 +586,6 @@ footer .nav {
     color: white;
     margin-bottom: 30px;
     text-align: center;
-<<<<<<< HEAD
     margin-left: 39%;
     width:290px;
 }
@@ -668,9 +680,6 @@ footer .nav {
     .subscribe input {
         min-width: 400px;
     }
-=======
-    margin-left: 40%;
->>>>>>> 4ea1ccb66e30d75fa124d2e5865f7069a367c13b
 }
 
 
@@ -912,6 +921,12 @@ body.overflow {
     .burger {
         visibility: visible;
     }
+    .btn-new-users {
+        margin-left: 37%;
+    }
+    .explore-card-h4 {
+        font-size: 12px;
+    }
 }
 
 @media only screen and (max-width:1250px) {
@@ -925,13 +940,12 @@ body.overflow {
     }
     .small-icon {
         margin-left: 0;
-        margin-top: 10%;
     }
 }
 
 @media only screen and (max-width:760px) {
     /* index rerspons */
-    .ask-us {
+    .ask-us-home {
         display: none;
     }
     .section-1 {
@@ -965,14 +979,18 @@ body.overflow {
     .burg ul.main {
         margin-left: -30px;
     }
+    .btn-new-users {
+        margin-left: 32%;
+    }
+    .explore-form {
+        margin-left: 0;
+        margin: 30px;
+    }
 }
 
 @media only screen and (max-width:450px) {
     .btn-burger {
         margin-left: 0px;
-    }
-    .section-1 {
-        height: 50vh !important;
     }
     .section2,
     .container,
@@ -982,6 +1000,9 @@ body.overflow {
     .bg-text {
         margin-top: 0;
         font-size: 15pt;
+    }
+    .about-us-logo {
+        height: 70px;
     }
     .fix-align {
         margin: 0;
@@ -1011,7 +1032,6 @@ body.overflow {
     .contact-us-girl {
         display: none;
     }
-<<<<<<< HEAD
     /* new users response */
     .btn-new-users {
         margin-left: 20%;
@@ -1026,6 +1046,3 @@ body.overflow {
         height: 40px;
     }
 }
-=======
-}
->>>>>>> 4ea1ccb66e30d75fa124d2e5865f7069a367c13b
