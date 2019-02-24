@@ -120,7 +120,7 @@ $row=mysqli_fetch_assoc($result);
                 </div>
                 <div class="offset-md-1 col-md-4">
                   <p class="profile-info2">
-                    <?php 
+                    <?php
                     echo $row['user_sports'];
                     echo " ";
                     echo $row['user_trips'];
@@ -227,7 +227,7 @@ $row=mysqli_fetch_assoc($result);
                 <h4 class="profile-information">Επεξεργασία Προφίλ</h4>
               </div>
 
-              <div class="offset-md-1 col-md-7 profile-input">
+              <div class="offset-md-1 col-md-7 profile-input2">
 
                 <div class="row">
 
@@ -236,13 +236,13 @@ $row=mysqli_fetch_assoc($result);
                   </div>
                   <div class="offset-md-1 col-md-4">
 
-                    <input class="edit-input" type="text" name="username" 
+                    <input class="edit-input" type="text" name="username"
                     value="<?php echo $row['user_firstname']; ?>"/>
 
                   </div>
                 </div>
               </div>
-              <div class="offset-md-1 col-md-7 profile-input">
+              <div class="offset-md-1 col-md-7 profile-input3">
 
                 <div class="row">
 
@@ -251,7 +251,7 @@ $row=mysqli_fetch_assoc($result);
                   </div>
                   <div class="offset-md-1 col-md-4">
 
-                    <input class="edit-input" type="text" name="username" 
+                    <input class="edit-input" type="text" name="username"
                     value="<?php echo $row['user_lastname']; ?>"/>
 
                   </div>
@@ -279,7 +279,7 @@ $row=mysqli_fetch_assoc($result);
                   </div>
                   <div class="offset-md-1 col-md-4">
 
-                    <input class="edit-input" type="text" name="dateofbirth" 
+                    <input class="edit-input" type="text" name="dateofbirth"
                     value="<?php echo $row['user_dateofbirth']; ?>" />
 
                   </div>
@@ -386,17 +386,14 @@ $row=mysqli_fetch_assoc($result);
                 </div>
               </div>
 
-              <div class="offset-md-4 col-md-2">
+              <div class="offset-md-5 col-md-2">
                 <div class="row">
                   <div class="offset-md-2 col-md-2">
 
                     <input class="submit-button" type="submit" name="submit" value="Αποθήκευση"/>
 
                   </div>
-                  <div class="offset-md-5 col-md-2">
-                    <input class="submit-button2" type="submit" name="logOut" value="Αποσύνδεση"/>
 
-                  </div>
                 </div>
 
               </div>

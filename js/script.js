@@ -37,7 +37,7 @@ $(window).scroll( function(){
     var x = $(this).offset().top + $(this).outerHeight();
     var y = $(window).scrollTop() + $(window).height();
     if( y > x ){
-        $(this).animate({'bottom':'0', 'opacity': '1'},500);
+        $(this).animate({'bottom':'0', 'opacity': '1'},1000);
         }
       });
 
@@ -45,7 +45,7 @@ $(window).scroll( function(){
     var x = $(this).offset().top + $(this).outerHeight();
     var y = $(window).scrollTop() + $(window).height();
     if( y > x ){
-        $(this).animate({'width':'150px'},2000);
+        $(this).animate({'width':'150px'},2500);
         }
       });
 

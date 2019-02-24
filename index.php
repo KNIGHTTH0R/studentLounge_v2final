@@ -30,13 +30,13 @@ SESSION_START();
                 </h1>
                 <h5 class="bg-text">Γίνε μέλος στο ProjectLounge για να βρείς τον συγκάτοικο που επιθυμείς να περάσεις την φοιτητική σου περίοδο
                 </h5>
-                <button type="button" class="btn btn-primary fadebtn">Μάθε περισσότερα...</button>
+                <button onclick="window.location.href='#section4'" type="button" class="btn btn-primary fadebtn">Μάθε περισσότερα...</button>
             </div>
         </div>
     </div>
 </div>
 <!-- section 2 with 3 cards  -->
-<div class="section4 ">
+<div class="section4" id="section4">
     <div class="row ">
         <div class="offset-1 col-md-3 text-center fix-align shadow-drop-2-center ">
             <img class="img-fluid small-icon-2" src="images/iconfinder_Help_383993.png" alt="responsive-img">
@@ -151,4 +151,4 @@ include("includes/modal.php");
 
 </body>
 
-</html> 
+</html>

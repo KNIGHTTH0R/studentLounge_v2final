@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 
 /* container for all pages */
 
@@ -187,7 +191,7 @@ nav {
     position: relative;
     display: inline-block;
     opacity: 0;
-    top: 30%;
+    top: 10%;
 }
 
 
