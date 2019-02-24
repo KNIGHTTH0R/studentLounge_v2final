@@ -102,9 +102,8 @@ nav {
     width: 90%;
     background-color: rgba(56, 51, 71, 0.555);
     border-radius: 10px;
-    position: relative;
-    display: inline-block;
-    right: 110%;
+    margin-left:-30%;
+    opacity:0;
 }
 
 .form-control {
@@ -141,6 +140,7 @@ nav {
 .img-thumbnail {
     margin-left: 10px;
     margin-top: 30px;
+    width: 5px;
 }
 
 
@@ -149,6 +149,7 @@ nav {
 .btn-section2 {
     margin-top: 30px;
     margin-bottom: 30px;
+    display:none;
 }
 
 .section3 .row .btn-primary {
@@ -176,12 +177,14 @@ nav {
 }
 
 
-/* fix align bug */
-
 .fix-align {
     background-color: rgba(56, 51, 71, 0.589);
     margin-right: -5%;
     padding: 10px;
+    position:relative;
+    display:inline-block;
+    opacity:0;
+    top:40%;
 }
 
 
@@ -208,23 +211,31 @@ nav {
 /* small icons from  section 2 */
 
 .small-icon-2 {
-    width: 150px;
+    width: 5px;
     margin-left: 5%;
 }
 
 .small-icon {
     width: 300px;
-    margin-left: 20%;
-}
+    margin-left:-20%;
+    opacity:0;
+  }
 
 .bg-text-section3 {
     color: white;
     margin-top: 50px;
+    opacity:0;
 }
 
 .bg-text-section3-3 {
     color: white;
     margin-top: 70px;
+}
+
+.animation-text{
+  margin-left:10%;
+  opacity:0;
+
 }
 
 .section5 {
