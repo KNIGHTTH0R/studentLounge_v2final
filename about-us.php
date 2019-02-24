@@ -1,4 +1,4 @@
-<?php 
+<?php
 SESSION_start();
 if (!isset($_SESSION['password'])) {
     include("includes/header.php");
@@ -46,6 +46,7 @@ if (!isset($_SESSION['password'])) {
                 <div class="team-box">
                     <h4><b>ΠΑΡΗΣ ΚΑΡΑΜΠΑΣ</b></h4>
                     <p>WEB-DESIGNER,FRONT-END DEVELOPER</p>
+                    <br />
                 </div>
             </div>
         </div>
@@ -55,6 +56,7 @@ if (!isset($_SESSION['password'])) {
                 <div class="team-box">
                     <h4><b>ΙΓΚΙ ΡΟΥΤΣΙ</b></h4>
                     <p>WEB-DESIGNER,FRONT-END DEVELOPER</p>
+                    <br />
                 </div>
             </div>
         </div>
@@ -74,11 +76,11 @@ if (!isset($_SESSION['password'])) {
 
 </div>
 
-<?php 
+<?php
 include("includes/footer.php");
 include("includes/modal.php");
 ?>
 
 </body>
 
-</html> 
+</html>

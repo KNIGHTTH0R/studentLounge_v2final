@@ -103,7 +103,7 @@ if (!isset($_SESSION['password'])) {
         <!-- members card start here -->
         <div class="row">
             <div class="col-md-3">
-                <div class="card explore-member-card">
+                <div class="card-explore explore-member-card">
                     <img class="img-fluid explore-member-img" src="images/avatar1.png" alt="responsive-image" style="width:100%">
                     <div class="team-box">
                         <h4 class="explore-card-h4"><b>ΠΑΡΗΣ ΚΑΡΑΜΠΑΣ</b></h4>
@@ -112,7 +112,7 @@ if (!isset($_SESSION['password'])) {
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card explore-member-card">
+                <div class="card-explore explore-member-card">
                     <img class="img-fluid explore-member-img" src="images/43914576_262438344454636_2728703683628892160_n.jpg" alt="responsive-image" style="width:100%">
                     <div class="team-box">
                         <h4 class="explore-card-h4"><b>ΠΑΡΗΣ ΚΑΡΑΜΠΑΣ</b></h4>
@@ -121,7 +121,7 @@ if (!isset($_SESSION['password'])) {
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card explore-member-card">
+                <div class="card-explore explore-member-card">
                     <img class="img-fluid explore-member-img" src="images/avatar1.png" alt="responsive-image" style="width:100%">
                     <div class="team-box">
                         <h4 class="explore-card-h4"><b>ΠΑΡΗΣ ΚΑΡΑΜΠΑΣ</b></h4>
@@ -130,7 +130,7 @@ if (!isset($_SESSION['password'])) {
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card explore-member-card">
+                <div class="card-explore explore-member-card">
                     <img class="img-fluid explore-member-img" src="images/avatar1.png" alt="responsive-image" style="width:100%">
                     <div class="team-box">
                         <h4 class="explore-card-h4"><b>ΠΑΡΗΣ ΚΑΡΑΜΠΑΣ</b></h4>
@@ -148,4 +148,4 @@ if (!isset($_SESSION['password'])) {
 </div>
 </body>
 
-</html> 
+</html>

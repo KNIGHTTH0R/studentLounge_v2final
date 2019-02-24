@@ -391,6 +391,10 @@ footer .nav {
 .about-us-btn {
     text-align: center;
     margin: 0 auto !important;
+    position: relative;
+    display: inline-block;
+    opacity: 0;
+    bottom: 100%;
 }
 
 .about-us-section1 {
@@ -406,10 +410,14 @@ footer .nav {
 
 .about-us-align-text {
     margin-top: 10%;
+    margin-left:-20%;
+    opacity:0;
 }
 
 .contact-us-girl {
     opacity: 0.8;
+    margin-left: -20%;
+    opacity: 0;
 }
 
 .about-us-text,
@@ -432,11 +440,26 @@ footer .nav {
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.5s;
     width: 100%;
+    position: relative;
+    display: inline-block;
+    opacity: 0;
+    top: 15%;
 }
 
 .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-explore {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    margin-left: -30%;
+    opacity: 0;
+
+}
+
+.card-explore:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -564,12 +587,14 @@ footer .nav {
     margin-bottom: 30px;
     text-align: center;
     margin-left: 39%;
+    width:290px;
 }
 
 .section-header {
     margin-bottom: 60px;
     position: relative;
     padding-bottom: 20px;
+    display:none;
 }
 
 .section-header::before {
