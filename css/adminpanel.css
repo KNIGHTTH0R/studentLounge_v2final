@@ -1,12 +1,35 @@
+*{ 
+  margin:0;
+  padding:0;
+}
+body {
+  background-image:url(../images/adminBg.jpg);
+  background-size:cover;
+  width:100%;
+  height:100%;
+
+}
+
+
 ul,li, nav,a{margin:0;padding:0;list-style:none;}
 a{text-decoration:none; font-family:helvetica; }
 
 header {
   background-color:#3b354d;
   color:white !important;
-  height:50px;
+  height:80px;
   line-height: 40px;
 
+}
+
+table {
+  text-align: center !important;
+  margin-left:auto;
+  margin-right:auto;
+} 
+table.center {
+  margin-left:auto; 
+  margin-right:auto;
 }
 td, th {
   text-align: center;
@@ -14,10 +37,24 @@ td, th {
 
 
 }
+
 input {
+  padding:10px;
   border-bottom:2px solid #3b354d;
+  height:50px;
+  width:90%;
+  font-size:1em;
   border-top:0px;
   border-left:0px;
+  background-color:#3b354d;
+  color:white;
+}
+button {
+  background-color:#ffc107;
+  border:#ffc107;
+  color:white;
+  height:35px;
+  width:200px;
 }
 th {
   width:5%;
@@ -36,8 +73,7 @@ tr:nth-child(odd){
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 50%;
-  margin-left:200px;
+  width: 70%;
 }
 tr:hover {
   color:orange;
@@ -52,7 +88,7 @@ header #logouttext:hover {
 }
 header h1{text-align:center;font-size:2em;border-bottom:5px solid #222; padding:.22em; font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; background-color:#3b354d;color:;}
 #vertical-menu{
-  margin-top:7px;
+  margin-top:5px;
   display:inline-block;
   border-radius:5px;
   box-sizing:border-box;
@@ -130,7 +166,20 @@ li:hover .submenu-1, .submenu-1>li:hover .submenu-2, .submenu-2>li:hover .submen
   color:orange;  
 }
 form {
+  max-height: 70%;
+  max-width: 50%;
+  height: auto;
+  width: auto;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+  margin: auto;
   text-align:center;
+  background-color:rgba(56, 51, 71, 0.555);
 }
 /* Author */
 article{
@@ -141,5 +190,15 @@ article p{
   font-size:1.2em;
   color:orange;
 }
-
+h3 {
+  color:white;
+}
+span {
+  color:white;
+}
+.modal-body {
+  text-align: center;
+  color:white;
+  background-color:rgba(56, 51, 71, 0.555);
+}
 

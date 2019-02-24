@@ -1,6 +1,6 @@
 <html>
 <head>
-	<?php include("includes/adminHeader.php")?>
+	<?php include("../includes/adminHeader.php")?>
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="../css/adminpanel.css">
@@ -18,19 +18,15 @@
 			<span id="LastNameError"></span><br/>
 			<input type="text" placeholder="Email" id="Email" name="email" onkeyup="testEmail()"><br/>
 			<span id="EmailError"></span><br/>
-			<input type="text" placeholder="Re-type email" id="ReEmail" name="reemail" onkeyup="testReEmail()"><br/>
-			<span id="ReEmailError"></span><br/>
 			<input type="text" placeholder="Phone" id="Phone" name="phone" onkeyup="testPhone()"><br/>
 			<span id="PhoneError"></span><br/>
 			<input type="password" placeholder="Password" id="Password" name="password" onkeyup="testPassword()"><br/>
 			<span id="PasswordError"></span><br/>
-			<input type="password" placeholder="Re-type password" name="repassword" onkeyup="testRePassword()"><br/>
-			<span id="RePasswordError"></span><br/>
-			<br/>
-			<input type="radio" name="gender" value="male">simple user with house<br/>
-			<input type="radio" name="gender" value="female">simple user without house<br>
-			<input type="radio" name="gender" value="other">super-user <br>  
-			<button id="FacebookConnect">Connect with facebook</button><br/>
+			<input type="password" placeholder="Re-password" id="Password" name="repassword" onkeyup="testPassword()"><br/>
+			<span id="PasswordError"></span>
+
+
 			<br/><button type="submit" class="buttons">Register</button>
-		</body>
-		</html>
+		</form>
+	</body>
+	</html>
