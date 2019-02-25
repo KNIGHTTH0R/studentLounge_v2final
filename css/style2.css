@@ -1,3 +1,4 @@
+/* background photo profile style */
     .profile-background {
         background-image: linear-gradient(to right bottom, rgba(126, 121, 143, 0.2), rgba(140, 137, 156, 0.6)), url("../images/background.jpg");
         background-attachment: fixed;
@@ -6,7 +7,7 @@
         background-size: cover;
         height: 400px;
     }
-    
+    /* photo profile style */
     .profilePic {
         width: 220px;
         position: absolute;
@@ -14,21 +15,21 @@
         z-index: 2;
         overflow: hidden;
     }
-    
+    /* user info style */
     .profile-username {
         font-size: 28pt;
         font-weight: bold;
         color: white;
         margin-top: 230px;
     }
-    
+
     .profile-age {
         font-size: 12pt;
         font-weight: bold;
         color: white;
         float: left;
     }
-    
+
     .profile-city {
         float: left;
         margin-left: 20px;
@@ -36,7 +37,7 @@
         color: white;
         font-weight: bold;
     }
-    
+
     .profile-city::before {
         content: "\2022";
         color: gray;
@@ -45,35 +46,35 @@
         width: 0.8em;
         margin-left: -0.8em;
     }
-    
+    /* tab background style */
     .whitespace {
         height: 50px;
         padding-top: 4px;
     }
-    
+
     .profile-title {
         color: black;
         font-weight: 600;
         line-height: 75px;
         margin-left: 10px;
     }
-    
+    /* tabs background style */
     .grayspace {
         background-color: lightgray;
     }
-    
+
     .grayspace2 {
         background-color: lightgray;
     }
-    
+
     .grayspace3 {
         background-color: lightgray;
     }
-    
+    /* title border bottom style */
     .profile-information {
         padding-top: 50px;
     }
-    
+
     .profile-information::after {
         content: '';
         display: block;
@@ -82,11 +83,11 @@
         border-left: 120px orange solid;
         background-color: rgba(0, 0, 0, 0.08);
     }
-    
+
     .profile-information2 {
         padding-top: 10px;
     }
-    
+
     .profile-information2::after {
         content: '';
         display: block;
@@ -95,91 +96,59 @@
         border-left: 120px orange solid;
         background-color: rgba(0, 0, 0, 0.08);
     }
-    
+    /* profile information styles */
     .profile-input {
         margin-top: 20px;
         background-color: silver;
     }
-    
+
     .profile-info {
         display: inline-block;
         line-height: 40px;
     }
-    
+
     .profile-info2 {
         line-height: 40px;
         display: inline-block;
     }
-    
+
     .profile-input3 {
         background-color: silver;
     }
-    
+
     .profile-input4 {
         background-color: silver;
         margin-top: 20px;
     }
-    
-    .new-members {
-        background-color: white;
-        margin-right: 100px;
-        height: 450px;
-        float: right;
-    }
-    
-    .newmember-photo {
-        float: left;
-        width: 130px;
-        margin-top: 15px;
-        margin-left: 20px;
-    }
-    
-    .newmember-photo2 {
-        float: left;
-        width: 130px;
-        margin-top: 15px;
-        margin-left: 40px;
-    }
-    
-    .newmember-name {
-        margin-top: 10px;
-        margin-left: 20px;
-        float: left;
-    }
-    
-    .newmember-name2 {
-        margin-top: 10px;
-        margin-left: 50px;
-        float: left;
-    }
-    
+
+  /* tab fonts color */
     #pills-home-tab {
         color: black;
     }
-    
+
     #pills-profile-tab {
         color: black;
     }
-    
+
     #pills-contact-tab {
         color: black;
     }
-    
+/* edit profile styles */
     .edit-input {
         margin-top: 10px;
         width: 300px;
     }
-    
+
     .radio {
         margin-top: 20px;
         margin-left: 5px;
     }
-    
+
     .checkbox {
         margin-top: 20px;
         margin-left: 5px;
     }
-    
+
     .submit-button {
         margin-top: 50px;
         background-color: orange;
@@ -192,7 +161,7 @@
         margin-left: 100px;
         margin-bottom: 30px;
     }
-    
+
     .submit-button2 {
         margin-top: 50px;
         background-color: #ff6060;
@@ -205,7 +174,7 @@
         margin-left: 140px;
         margin-bottom: 30px;
     }
-    
+
     .submit-button3 {
         margin-top: 50px;
         background-color: orange;
@@ -217,53 +186,53 @@
         cursor: pointer;
         margin-bottom: 30px;
     }
-    
+
     .submit-button:hover {
         background-color: #007bff;
     }
-    
+
     .submit-button2:hover {
         background-color: red;
     }
-    
+
     .submit-button3:hover {
         background-color: #007bff;
     }
-    
+/* profile photos tab style */
     .house-pic {
         cursor: pointer;
         margin-top: 30px;
     }
-    
+
     .house-image {
         width: 320px;
         margin: 30px;
     }
-    
+/* website responsive sets */
     @media only screen and (max-width:1250px) {
         .house-image {
             width: 280px;
         }
     }
-    
+
     @media only screen and (max-width:1050px) {
         .house-image {
             width: 250px;
         }
     }
-    
+
     @media only screen and (max-width:960px) {
         .edit-input {
             width: 150px;
         }
     }
-    
+
     @media only screen and (max-width:835px) {
         .house-image {
             width: 220px;
         }
     }
-    
+
     @media only screen and (max-width:768px) {
         .house-image {
             width: 200px;
@@ -286,7 +255,7 @@
             margin-left: 35%;
         }
     }
-    
+
     @media only screen and (max-width:750px) {
         .house-image {
             width: 70%;
@@ -295,7 +264,7 @@
             margin-bottom: 50px;
         }
     }
-    
+
     @media only screen and (max-width:425px) {
         .profilePic {
             margin-left: 17%;

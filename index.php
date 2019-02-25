@@ -63,41 +63,7 @@ SESSION_START();
         </div>
     </div>
 </div>
-<!-- section 3 meet our new members -->
-<div class="section-2">
-    <div class="row">
-        <div class="col-md-12">
-            <h2 class="bg-black-text">Γνώρισε τα νέα μέλη μας!</h2>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class=" col-md-12 text-center">
-                <img src="images/43914576_262438344454636_2728703683628892160_n.jpg" alt="responsive-image" class="img-thumbnail">
-                <img src="images/43914576_262438344454636_2728703683628892160_n.jpg" alt="responsive-image" class="img-thumbnail">
-                <img src="images/43914576_262438344454636_2728703683628892160_n.jpg" alt="responsive-image" class="img-thumbnail">
-                <img src="images/43914576_262438344454636_2728703683628892160_n.jpg" alt="responsive-image" class="img-thumbnail">
-                <img src="images/43914576_262438344454636_2728703683628892160_n.jpg" alt="responsive-image" class="img-thumbnail">
-                <img src="images/43914576_262438344454636_2728703683628892160_n.jpg" alt="responsive-image" class="img-thumbnail">
-            </div>
-        </div>
-        <div class="row">
-            <div class=" col-md-12 text-center">
-                <img src="images/43914576_262438344454636_2728703683628892160_n.jpg" alt="responsive-image" class="img-thumbnail">
-                <img src="images/43914576_262438344454636_2728703683628892160_n.jpg" alt="responsive-image" class="img-thumbnail">
-                <img src="images/43914576_262438344454636_2728703683628892160_n.jpg" alt="responsive-image" class="img-thumbnail">
-                <img src="images/43914576_262438344454636_2728703683628892160_n.jpg" alt="responsive-image" class="img-thumbnail">
-                <img src="images/43914576_262438344454636_2728703683628892160_n.jpg" alt="responsive-image" class="img-thumbnail">
-                <img src="images/43914576_262438344454636_2728703683628892160_n.jpg" alt="responsive-image" class="img-thumbnail">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <button type="submit" onclick="window.location.href='new_users.php'" class="btn btn-primary btn-lg  btn-section2">Αναζήτηστε άτομα</button>
-            </div>
-        </div>
-    </div>
-</div>
+
 <!-- section 4 image with text -->
 <div class="section5 ">
     <div class="row ">
@@ -151,4 +117,4 @@ include("includes/modal.php");
 
 </body>
 
-</html> 
+</html>

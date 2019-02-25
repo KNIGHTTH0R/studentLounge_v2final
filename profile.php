@@ -16,7 +16,7 @@ $row = mysqli_fetch_assoc($result);
 
 <div class="container-fluid">
 
-
+<!--- member username,age,photo --->
     <div class="col-md-12 profile-background">
         <div class="row">
             <div class="offset-md-1 col-md-3">
@@ -37,7 +37,7 @@ $row = mysqli_fetch_assoc($result);
             </div>
         </div>
     </div>
-
+<!--- tabs that contain information, photos and edit profile --->
     <div class="row">
         <div class="col-md-12">
             <div class="row">
@@ -55,6 +55,7 @@ $row = mysqli_fetch_assoc($result);
                     </ul>
                 </div>
             </div>
+            <!--- information tab --->
             <div class="tab-content" id="pills-tabContent">
                 <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                     <div class="col-md-12 grayspace">
@@ -182,7 +183,7 @@ $row = mysqli_fetch_assoc($result);
                     </div>
 
                 </div>
-
+                <!--- photos tab --->
                 <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
                     <div class="row">
                         <div class="col-md-12 grayspace3">
@@ -207,7 +208,7 @@ $row = mysqli_fetch_assoc($result);
                         </div>
                     </div>
                 </div>
-
+                <!--- edit profile tab --->
                 <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                     <form enctype="multipart/form-data" action="php/EditUser.php" method="POST">
                         <div class="col-md-12 grayspace2">
@@ -395,4 +396,4 @@ $row = mysqli_fetch_assoc($result);
 
 <?php
 include_once("includes/footer.php");
-?> 
+?>

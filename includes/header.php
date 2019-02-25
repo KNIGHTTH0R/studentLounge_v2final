@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/igi.css" />
+    <link rel="stylesheet" href="css/style2.css" />
 
     <title>Document</title>
 </head>
@@ -65,4 +65,4 @@
                     <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#LoginModalCenter">Σύνδεση</button>
                 </div>
             </div>
-        </nav> 
+        </nav>
