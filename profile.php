@@ -195,47 +195,12 @@ $row = mysqli_fetch_assoc($result);
                                         <label for="house-pic" class="house-pic"><img src="images/photo.png" /></label>
                                         <form action="">
                                             <input id="house-pic" type="file" name="housePic" accept="image/*" />
+                                            <input class="submit-button " type="submit" name="submit" value="Αποθήκευση_εικόνας" />
                                         </form>
                                     </div>
 
                                     <div class="offset-md-1 col-md-3">
                                         <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
-                                    </div>
-
-                                    <div class="offset-md-1 col-md-3">
-                                        <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="offset-md-1 col-md-10">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
-                                    </div>
-
-                                    <div class="offset-md-1 col-md-3">
-                                        <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
-                                    </div>
-
-                                    <div class="offset-md-1 col-md-3">
-                                        <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="offset-md-1 col-md-10">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
-                                    </div>
-
-                                    <div class="offset-md-1 col-md-3">
-                                        <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
-                                    </div>
-
-                                    <div class="offset-md-1 col-md-3">
-                                        <img class="house-image lastimg" src="images/roberto-nickson-g-772172-unsplash.jpg" />
                                     </div>
                                 </div>
                             </div>
