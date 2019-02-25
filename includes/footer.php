@@ -21,10 +21,11 @@
     </div>
     <div class="row">
         <div class="col-md-12 text-center">
-            <img class="img-fluid social" src="images/iconfinder_facebook_2142575.png" alt="responsive-image">
-            <img class="img-fluid social" src="images/iconfinder_instagram_2142569.png" alt="responsive-image">
-            <img class="img-fluid social" src="images/iconfinder_mail_2142571.png" alt="responsive-image">
-            <img class="img-fluid social" src="images/iconfinder_linkedin_2142574.png" alt="responsive-image">
+
+            <a href="https://www.facebook.com/paris.karampas"><img class="img-fluid social" src="images/iconfinder_facebook_2142575.png" alt="responsive-image"></a>
+            <a href="https://www.instagram.com/parasxous/"><img class="img-fluid social" src="images/iconfinder_instagram_2142569.png" alt="responsive-image"></a>
+            <a href="https://mail.google.com/mail/u/0/"> <img class="img-fluid social" src="images/iconfinder_mail_2142571.png" alt="responsive-image"></a>
+            <a href="https://www.linkedin.com/in/%CF%80%CE%AC%CF%81%CE%B7%CF%82-%CE%BA%CE%B1%CF%81%CE%B1%CE%BC%CF%80%CE%AC%CF%82-77344a10b/"> <img class="img-fluid social" src="images/iconfinder_linkedin_2142574.png" alt="responsive-image"></a>
         </div>
     </div>
     <div class="row">
