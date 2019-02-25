@@ -28,7 +28,7 @@ if (!empty($row)){
 		$_SESSION["username"] = $username;
 		$_SESSION["password"] = $password;
 		$_SESSION["id"] = $row["ID"];
-		header("Location: ../explore.php");
+		header("Location: ../new_users.php");
 
 
 	}

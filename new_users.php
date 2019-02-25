@@ -1,7 +1,11 @@
 <?php
-include_once("includes/header.php")
+SESSION_start();
+if (!isset($_SESSION['password'])) {
+    include("includes/header.php");
+} else {
+    include("includes/loggedinheader.php");
+}
 ?>
-
 
 <div class="container-fluid">
     <div class="row">
