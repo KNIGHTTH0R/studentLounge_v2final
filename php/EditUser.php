@@ -4,6 +4,7 @@ session_start();
 $fileExistsFlag = 0; 
 $fileName = $_FILES['fileToUpload']['name'];
 $username = $_SESSION["username"];
+
 // Check whether the file already exists in the destination folder
 
 $query = "SELECT * FROM users WHERE user_username = '$username'";

@@ -17,7 +17,7 @@ if (!isset($_SESSION['password'])) {
                         <p class="new_users_p">ΨΑΧΝΕΙΣ ΣΠΙΤΙ Η ΣΥΓΚΑΤΟΙΚΟ? ΣΤΟ STUDENTLOUNGE ΘΑ ΒΡΕΙΣ ΑΥΤΟ ΠΟΥ ΘΕΣ ΚΑΝΕ ΑΝΑΖΗΤΗΣΗ ΤΩΡΑ</p>
                     </div>
 
-                    <form method="POST" action="#">
+                    <form method="POST" action="#" autocomplete="off">
                         <div class="form-row justify-content-center">
                             <div class="col-auto">
                                 <input name ="keyword" id="searchbox" type="text" class="form-control" placeholder="Αναζήτηση τωρα">
@@ -125,7 +125,7 @@ if (!isset($_SESSION['password'])) {
     </div>
 </div>
 </div>
-<script src="./js/script.js"></script>
+
 
 <?php
 include("includes/footer.php");

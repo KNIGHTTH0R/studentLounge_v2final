@@ -22,13 +22,7 @@ $(document).ready(function(){
 
   $('.section-header').fadeIn(3000).removeClass('hidden');
 
-  $('.card-explore').each( function(i){
-    var x = $(this).offset().top + $(this).outerHeight();
-    var y = $(window).scrollTop() + $(window).height();
-    if( y > x ){
-      $(this).animate({'opacity':'1', 'margin-left':'0%'},1000);
-    }
-  });
+
 });
 
 

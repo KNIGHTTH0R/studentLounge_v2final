@@ -15,7 +15,7 @@ if($_GET['keyword'] && !empty($_GET['keyword']))
 
         //Loop for results to return to index.php
         while($row=mysqli_fetch_assoc($result)){
-            echo "<a href=#".$row["user_location"]."></a><br/>";
+            echo "<a href=explore.php>".$row["user_location"]."</a><br/>";
             $flag = 1 ;
         }
         // Message for no results

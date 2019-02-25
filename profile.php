@@ -21,10 +21,10 @@ $row = mysqli_fetch_assoc($result);
         <div class="row">
             <div class="offset-md-1 col-md-3">
                 <img class='profilePic img-fluid' alt="responsive-img" src="<?php
-                                                                            $profile_image = $row['user_profile'];
-                                                                            $str = $profile_image;
-                                                                            $str1 = substr($str, 1);
-                                                                            echo $str1; ?>" />"
+                $profile_image = $row['user_profile'];
+                $str = $profile_image;
+                $str1 = substr($str, 1);
+                echo $str1; ?>" />"
             </div>
             <div class="col-md-5">
                 <p class="profile-username">@
@@ -225,7 +225,7 @@ $row = mysqli_fetch_assoc($result);
                                     </div>
                                     <div class="offset-md-1 col-md-6">
 
-                                        <input class="edit-input" type="text" name="username" value="<?php echo $row['user_firstname']; ?>" />
+                                        <input class="edit-input" type="text" name="firstname" value="<?php echo $row['user_firstname']; ?>" />
 
                                     </div>
                                 </div>
@@ -239,7 +239,7 @@ $row = mysqli_fetch_assoc($result);
                                     </div>
                                     <div class="offset-md-1 col-md-6">
 
-                                        <input class="edit-input" type="text" name="username" value="<?php echo $row['user_lastname']; ?>" />
+                                        <input class="edit-input" type="text" name="lastname" value="<?php echo $row['user_lastname']; ?>" />
 
                                     </div>
                                 </div>
@@ -337,8 +337,8 @@ $row = mysqli_fetch_assoc($result);
                                     </div>
                                     <div class="offset-md-1 col-md-6">
 
-                                        <input class="radio" type="radio" name="smokeYes" value="Ναι" /> Ναί
-                                        <input class="radio" type="radio" name="smokeNo" value="Όχι" /> Όχι
+                                        <input class="radio" type="radio" name="smoke" value="Ναι" /> Ναί
+                                        <input class="radio" type="radio" name="smoke" value="Όχι" /> Όχι
 
                                     </div>
                                 </div>
