@@ -60,12 +60,10 @@
 
 .grayspace {
     background-color: lightgray;
-    height: 700px;
 }
 
 .grayspace2 {
     background-color: lightgray;
-    height: 850px;
 }
 
 .grayspace3 {
@@ -101,31 +99,24 @@
 .profile-input {
     margin-top: 20px;
     background-color: silver;
-    height: 50px;
 }
 
 .profile-info {
     display: inline-block;
-    line-height: 50px;
+    line-height: 40px;
 }
 
 .profile-info2 {
-    line-height: 50px;
+    line-height: 40px;
     display: inline-block;
-}
-
-.profile-input2 {
-    height: 50px;
 }
 
 .profile-input3 {
     background-color: silver;
-    height: 50px;
 }
 
 .profile-input4 {
     background-color: silver;
-    height: 50px;
     margin-top: 20px;
 }
 
@@ -199,6 +190,7 @@
     text-decoration: none;
     cursor: pointer;
     margin-left: 100px;
+    margin-bottom: 30px;
 }
 
 .submit-button2 {
@@ -211,6 +203,7 @@
     text-decoration: none;
     cursor: pointer;
     margin-left: 140px;
+    margin-bottom: 30px;
 }
 
 .submit-button3 {
@@ -222,6 +215,7 @@
     padding: 15px 32px;
     text-decoration: none;
     cursor: pointer;
+    margin-bottom: 30px;
 }
 
 .submit-button:hover {
@@ -258,6 +252,12 @@
     }
 }
 
+@media only screen and (max-width:960px) {
+    .edit-input {
+        width: 150px;
+    }
+}
+
 @media only screen and (max-width:835px) {
     .house-image {
         width: 220px;
@@ -267,6 +267,21 @@
 @media only screen and (max-width:768px) {
     .house-image {
         width: 200px;
+    }
+    .submit-button {
+        margin-left: 60%;
+    }
+    .profilePic {
+        margin-left: 30%;
+    }
+    .profile-username {
+        margin-left: 35%;
+    }
+    .profile-age {
+        margin-left: 35%;
+    }
+    .profile-city {
+        margin-left: 35%;
     }
 }
 
