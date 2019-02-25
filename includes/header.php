@@ -22,13 +22,13 @@
             <nav class="burg">
                 <ul class="main">
                     <li>
-                        <a href="index.php">Αρχική</a>
+                        <a href="index.php">Αρχικη</a>
                     </li>
                     <li>
-                        <a href="about-us.php">Σχετικά με εμάς</a>
+                        <a href="about-us.php">Σχετικα με εμας</a>
                     </li>
                     <li>
-                        <a href="contact.php">Επικοινωνία</a>
+                        <a href="contact.php">Επικοινωνια</a>
                     </li>
                 </ul>
                 <div class="btn-burger">
@@ -65,4 +65,4 @@
                     <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#LoginModalCenter">Σύνδεση</button>
                 </div>
             </div>
-        </nav>
+        </nav> 

@@ -9,17 +9,17 @@ include_once("includes/header.php")
             <section class="subscribe">
                 <div class="container_users">
                     <div class="section-header">
-                        <h2 class="new_users_h2">ΚΑΝΕ ΕΓΓΡΑΦΗ ΣΤΟ NEWSLETTER ΤΟΥ STUDENTLOUNGE</h2>
-                        <p class="new_users_p">ΨΑΧΝΕΙΣ ΣΠΙΤΙ Η ΣΥΓΚΑΤΟΙΚΟ? ΣΤΟ STUDENTLOUNGE ΘΑ ΒΡΕΙΣ ΑΥΤΟ ΠΟΥ ΘΕΣ ΚΑΝΕ ΕΓΓΡΑΦΗ ΣΤΟ NEWSLETTER ΤΩΡΑ .</p>
+                        <h2 class="new_users_h2">ΑΝΑΖΗΤΗΣΤΕ ΤΩΡΑ</h2>
+                        <p class="new_users_p">ΨΑΧΝΕΙΣ ΣΠΙΤΙ Η ΣΥΓΚΑΤΟΙΚΟ? ΣΤΟ STUDENTLOUNGE ΘΑ ΒΡΕΙΣ ΑΥΤΟ ΠΟΥ ΘΕΣ ΚΑΝΕ ΑΝΑΖΗΤΗΣΗ ΤΩΡΑ</p>
                     </div>
 
                     <form method="post" action="#">
                         <div class="form-row justify-content-center">
                             <div class="col-auto">
-                                <input type="text" class="form-control" placeholder="Enter your Email">
+                                <input type="text" class="form-control" placeholder="Αναζήτηση τωρα">
                             </div>
                             <div class="col-auto">
-                                <button type="submit">Subscribe</button>
+                                <button type="submit">Αναζήτηστε </button>
                             </div>
                         </div>
                     </form>
