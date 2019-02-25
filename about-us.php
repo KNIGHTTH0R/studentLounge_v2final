@@ -14,7 +14,7 @@ if (!isset($_SESSION['password'])) {
     </div>
     <div class="row">
         <div class="col-md-12">
-            <button type="button" class="text-center btn btn-outline-light btn-lg about-us-btn d-flex align-items-center">ΑΝΑΚΑΛΥΨΤΕ
+            <button onclick="window.location.href='#about-us'" type="button" class="text-center btn btn-outline-light btn-lg about-us-btn d-flex align-items-center">ΑΝΑΚΑΛΥΨΤΕ
                 ΜΑΣ</button>
         </div>
     </div>
@@ -33,7 +33,7 @@ if (!isset($_SESSION['password'])) {
         </div>
     </div>
 </div>
-<div class="about-us-section2">
+<div class="about-us-section2" id="about-us">
     <div class="row">
         <div class="col-md-12">
             <h3 class="text-center about-us-s2-h3">- H ΟΜΑΔΑ ΜΑΣ -</h3>
