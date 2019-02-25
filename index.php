@@ -93,7 +93,7 @@ SESSION_START();
         </div>
         <div class="row">
             <div class="col-md-12 text-center">
-                <button type="submit" href="new_users.html" class="btn btn-primary btn-lg  btn-section2">Αναζήτηστε άτομα</button>
+                <button type="submit" onclick="window.location.href='new_users.php'" class="btn btn-primary btn-lg  btn-section2">Αναζήτηστε άτομα</button>
             </div>
         </div>
     </div>
@@ -151,4 +151,4 @@ include("includes/modal.php");
 
 </body>
 
-</html>
+</html> 

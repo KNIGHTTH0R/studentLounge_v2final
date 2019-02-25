@@ -570,6 +570,10 @@ footer .nav {
     text-decoration: none;
 }
 
+.explore-username {
+    font-size: 15px;
+}
+
 
 /* am looking for end here */
 
@@ -946,7 +950,33 @@ body.overflow {
         margin: 0;
     }
     .small-icon {
-        margin-left: 0;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width:950px) {
+    .section-5-img {
+        padding: 0;
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+    .animation-text {
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .btn-new-users {
+        margin-left: 30%;
+    }
+    /*  contact us response */
+    .contact-us-girl {
+        display: none;
+    }
+    /* index icon from advice for new members */
+    .section-5-img {
+        margin-left: 10%!important;
     }
 }
 
@@ -967,7 +997,7 @@ body.overflow {
         margin-top: 20px;
     }
     .small-icon {
-        margin-left: 30%;
+        margin-left: 20%;
         width: 200px;
         margin-top: 0;
     }
@@ -1028,6 +1058,7 @@ body.overflow {
         padding: 5px;
         font-size: 15pt;
         text-align: center;
+        margin-top: 5px;
     }
     .bg-text-section3 {
         font-size: 10pt;
@@ -1035,21 +1066,20 @@ body.overflow {
     .section-5-ul {
         padding: 15px;
     }
-    /*  contact us response */
-    .contact-us-girl {
-        display: none;
-    }
     /* new users response */
     .btn-new-users {
-        margin-left: 20%;
+        margin-left: 15%;
     }
 }
 
 @media only screen and (max-width:380px) {
     .btn-new-users {
-        margin-left: 10%;
+        margin-left: 3%;
     }
     .about-us-logo {
         height: 40px;
+    }
+    .bg-text-section3 {
+        font-size: 12px;
     }
 }
