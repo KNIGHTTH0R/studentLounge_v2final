@@ -20,7 +20,11 @@ $row = mysqli_fetch_assoc($result);
     <div class="col-md-12 profile-background">
         <div class="row">
             <div class="offset-md-1 col-md-3">
-                <img class='profilePic img-fluid' alt="responsive-img" src="<?php echo $row['user_profile']; ?>" />"
+                <img class='profilePic img-fluid' alt="responsive-img" 
+                src="<?php
+                $profile_image = $row['user_profile'];
+                $str = $profile_image;
+                $str1 = substr($str, 1); echo $str1; ?>" />"
             </div>
             <div class="col-md-2">
                 <p class="profile-username">@
