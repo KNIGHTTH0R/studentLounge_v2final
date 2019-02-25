@@ -1,11 +1,52 @@
 <?php
 SESSION_start();
+include_once("php/config.php");
 if (!isset($_SESSION['password'])) {
     include("includes/header.php");
     header("Location:index.php");
 } else {
     include("includes/loggedinheader.php");
 }
+//show users
+
+
+function showUsersCards(){
+
+    global $conn;
+    $query = "SELECT * FROM users WHERE NOT (user_type = '2')";
+    $result = mysqli_query($conn,$query);
+    $returnMessage = "";
+
+    while($row=mysqli_fetch_assoc($result)){
+
+        $profile_image = $row['user_profile'];
+        $str = $profile_image;
+        $str1 = substr($str, 1);
+
+        $returnMessage.='<div class="col-md-3">';
+        $returnMessage.='<div class="card-explore explore-member-card">';
+        $returnMessage.='<img class="img-fluid explore-member-img" 
+        src="'.$str1.'"
+        alt="responsive-image" style="width:100%">';
+        $returnMessage.='<div class="team-box">';
+        $returnMessage.='<h4 class="explore-username"><b>'.$row["user_username"].'</b></h4>';
+        $returnMessage.='<p>'.$row["user_location"].' </p>';
+        $returnMessage.='</div>';
+        $returnMessage.='</div>';
+        $returnMessage.='</div>';
+
+        
+
+
+
+
+
+
+    }
+    echo $returnMessage;
+
+}
+
 ?>
 <!-- search filters -->
 <div class="row">
@@ -101,42 +142,11 @@ if (!isset($_SESSION['password'])) {
         <!-- search bar end here -->
         <!-- members card start here -->
         <div class="row">
-            <div class="col-md-3">
-                <div class="card-explore explore-member-card">
-                    <img class="img-fluid explore-member-img" src="images/avatar1.png" alt="responsive-image" style="width:100%">
-                    <div class="team-box">
-                        <h4 class="explore-username"><b>ΠΑΡΗΣ ΚΑΡΑΜΠΑΣ</b></h4>
-                        <p>21 Tρίκαλα</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card-explore explore-member-card">
-                    <img class="img-fluid explore-member-img" src="images/43914576_262438344454636_2728703683628892160_n.jpg" alt="responsive-image" style="width:100%">
-                    <div class="team-box">
-                        <h4 class="explore-username"><b>ΠΑΡΗΣ ΚΑΡΑΜΠΑΣ</b></h4>
-                        <p>21 Tρίκαλα</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card-explore explore-member-card">
-                    <img class="img-fluid explore-member-img" src="images/avatar1.png" alt="responsive-image" style="width:100%">
-                    <div class="team-box">
-                        <h4 class="explore-username"><b>ΠΑΡΗΣ ΚΑΡΑΜΠΑΣ</b></h4>
-                        <p>21 Tρίκαλα</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card-explore explore-member-card">
-                    <img class="img-fluid explore-member-img" src="images/avatar1.png" alt="responsive-image" style="width:100%">
-                    <div class="team-box">
-                        <h4 class="explore-username"><b>ΠΑΡΗΣ ΚΑΡΑΜΠΑΣ</b></h4>
-                        <p>21 Tρίκαλα</p>
-                    </div>
-                </div>
-            </div>
+            <?php
+
+            showUsersCards();
+
+            ?>
         </div>
     </div>
 
