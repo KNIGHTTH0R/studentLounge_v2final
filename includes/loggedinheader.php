@@ -21,16 +21,16 @@
             <nav class="burg">
                 <ul class="main">
                     <li>
-                        <a class="nav-link" href="explore.php">Ανακάλυψε</a>
+                        <a class="nav-link" href="explore.php">Ανακαλυψε</a>
                     </li>
                     <li>
-                        <a href="about-us.php">Σχετικά με εμάς</a>
+                        <a href="about-us.php">Σχετικα με εμας</a>
                     </li>
                     <li>
-                        <a href="contact.php">Επικοινωνία</a>
+                        <a href="contact.php">Επικοινωνια</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="profile.php">Προφίλ</a>
+                        <a class="nav-link" href="profile.php">Προφιλ</a>
                     </li>
                 </ul>
                 <div class="btn-burger">
