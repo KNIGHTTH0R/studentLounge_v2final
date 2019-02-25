@@ -25,9 +25,9 @@ function showUsersCards(){
 
         $returnMessage.='<div class="col-md-3">';
         $returnMessage.='<div class="card-explore explore-member-card">';
-        $returnMessage.='<img class="img-fluid explore-member-img" 
-        src="'.$str1.'"
-        alt="responsive-image" style="width:100%">';
+        $returnMessage.='<a href="userProfile.php?id='.$row["user_ID"].'"><img src="'.$str1.'"
+        class="img-fluid explore-member-img" 
+        alt="responsive-image" style="width:100%"></a>';
         $returnMessage.='<div class="team-box">';
         $returnMessage.='<h4 class="explore-username"><b>'.$row["user_username"].'</b></h4>';
         $returnMessage.='<p>'.$row["user_location"].' </p>';
