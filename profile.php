@@ -2,10 +2,10 @@
 SESSION_start();
 include_once("php/config.php");
 if (!isset($_SESSION['password'])) {
-  include("includes/header.php");
-  header("Location:index.php");
+    include("includes/header.php");
+    header("Location:index.php");
 } else {
-  include("includes/loggedinheader.php");
+    include("includes/loggedinheader.php");
 }
 $username = $_SESSION["username"];
 $query = "SELECT * FROM users WHERE user_username = '$username'";
@@ -179,57 +179,59 @@ $row = mysqli_fetch_assoc($result);
                 </div>
 
                 <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                    <div class="col-md-12 grayspace3">
-                        <div class="offset-md-1 col-md-10">
-                            <h4 class="profile-information">Φωτογραφίες</h4>
-                        </div>
-                        <div class="offset-md-1 col-md-10">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <label for="house-pic" class="house-pic"><img src="images/photo.png" /></label>
-                                    <form action="">
-                                        <input id="house-pic" type="file" name="housePic" accept="image/*" />
-                                    </form>
-                                </div>
+                    <div class="row">
+                        <div class="col-md-12 grayspace3">
+                            <div class="offset-md-1 col-md-10">
+                                <h4 class="profile-information">Φωτογραφίες</h4>
+                            </div>
+                            <div class="offset-md-1 col-md-10">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <label for="house-pic" class="house-pic"><img src="images/photo.png" /></label>
+                                        <form action="">
+                                            <input id="house-pic" type="file" name="housePic" accept="image/*" />
+                                        </form>
+                                    </div>
 
-                                <div class="offset-md-1 col-md-3">
-                                    <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
-                                </div>
+                                    <div class="offset-md-1 col-md-3">
+                                        <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
+                                    </div>
 
-                                <div class="offset-md-1 col-md-3">
-                                    <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
+                                    <div class="offset-md-1 col-md-3">
+                                        <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="offset-md-1 col-md-10">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
-                                </div>
+                            <div class="offset-md-1 col-md-10">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
+                                    </div>
 
-                                <div class="offset-md-1 col-md-3">
-                                    <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
-                                </div>
+                                    <div class="offset-md-1 col-md-3">
+                                        <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
+                                    </div>
 
-                                <div class="offset-md-1 col-md-3">
-                                    <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
+                                    <div class="offset-md-1 col-md-3">
+                                        <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="offset-md-1 col-md-10">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
-                                </div>
+                            <div class="offset-md-1 col-md-10">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
+                                    </div>
 
-                                <div class="offset-md-1 col-md-3">
-                                    <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
-                                </div>
+                                    <div class="offset-md-1 col-md-3">
+                                        <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
+                                    </div>
 
-                                <div class="offset-md-1 col-md-3">
-                                    <img class="house-image" src="images/roberto-nickson-g-772172-unsplash.jpg" />
+                                    <div class="offset-md-1 col-md-3">
+                                        <img class="house-image lastimg" src="images/roberto-nickson-g-772172-unsplash.jpg" />
+                                    </div>
                                 </div>
                             </div>
                         </div>
