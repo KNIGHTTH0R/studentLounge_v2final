@@ -8,9 +8,9 @@
 }
 
 .profilePic {
-    width: 280px;
-    margin-top: 20%;
-    position: relative;
+    width: 220px;
+    position: absolute;
+    top: 40%;
     z-index: 2;
     overflow: hidden;
 }
