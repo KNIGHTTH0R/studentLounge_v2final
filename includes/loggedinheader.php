@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/igi.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>
+    <script src="js/script.js"></script>
     <title>Document</title>
 </head>
 
@@ -20,7 +23,7 @@
             </div>
             <nav class="burg">
                 <ul class="main">
-                 <li>
+                   <li>
                     <a class="nav-link" href="newusers.php">Αρχική</a>
                 </li>
                 <li>
@@ -52,7 +55,7 @@
             </div>
             <div class="offset-md-1 col-md-6 logged-in-nav-header">
                 <ul class="nav justify-content-end">
-                 <li class="nav-item ">
+                   <li class="nav-item ">
                     <a class="nav-link" href="new_users.php">Αρχική</a>
                 </li>
                 <li class="nav-item ">
