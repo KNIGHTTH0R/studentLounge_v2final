@@ -500,14 +500,6 @@ footer .nav {
     display: block;
 }
 
-.search .fa-search {
-    position: absolute;
-    top: 70px;
-    left: 95%;
-    font-size: 15px;
-    color: white;
-}
-
 .explore-filters-text {
     color: white;
     margin-top: 10px;
