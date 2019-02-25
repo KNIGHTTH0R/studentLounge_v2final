@@ -22,16 +22,17 @@ if($fileExistsFlag == 0) {
 
 	if($result){
 		global $fileTarget;
-		echo "Your file <html><b><i>".$fileName."</i></b></html> has beeen succesfully uploaded";
 		$query = "UPDATE users SET  user_profile = '$fileTarget' WHERE user_username = '$username'";
-		$conn->query($query) or die("Error : ".mysqli_error($conn));
-		echo $username;
+		$conn->query($query);
+		header("Location:../profile.php");
+
 	}
 	else{
 		echo "Sorry,There was an error in uploading your file";
 	}
 	mysqli_close($conn);
 }
+
 //If file is already in the destination folder
 else{
 	echo "File <html><b><i>".$fileName."</i></b></html> already exists in your folder.Please rename the file and try again.";
