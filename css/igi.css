@@ -8,10 +8,11 @@
 }
 
 .profilePic {
-    width: 350px;
-    margin-top: 140px;
-    position: relative;
+    width: 220px;
+    position: absolute;
+    top: 40%;
     z-index: 2;
+    overflow: hidden;
 }
 
 .profile-username {

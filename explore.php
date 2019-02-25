@@ -7,7 +7,7 @@ if (!isset($_SESSION['password'])) {
     include("includes/loggedinheader.php");
 }
 ?>
-<!-- search filter aside -->
+<!-- search filters -->
 <div class="row">
     <div class=" col-md-3">
         <form class="explore-form">
@@ -96,7 +96,6 @@ if (!isset($_SESSION['password'])) {
     <!-- search bar  -->
     <div class="col-md-8">
         <div class="search">
-            <span class="fa fa-search"></span>
             <input type="text" class="form-control explore-search" placeholder="Αναζητήσε ατομα" />
         </div>
         <!-- search bar end here -->
