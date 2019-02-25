@@ -20,13 +20,13 @@ $row = mysqli_fetch_assoc($result);
     <div class="col-md-12 profile-background">
         <div class="row">
             <div class="offset-md-1 col-md-3">
-                <img class='profilePic img-fluid' alt="responsive-img" 
-                src="<?php
-                $profile_image = $row['user_profile'];
-                $str = $profile_image;
-                $str1 = substr($str, 1); echo $str1; ?>" />"
+                <img class='profilePic img-fluid' alt="responsive-img" src="<?php
+                                                                            $profile_image = $row['user_profile'];
+                                                                            $str = $profile_image;
+                                                                            $str1 = substr($str, 1);
+                                                                            echo $str1; ?>" />"
             </div>
-            <div class="col-md-2">
+            <div class="col-md-5">
                 <p class="profile-username">@
                     <?php echo $row['user_username']; ?>
                 </p>
@@ -40,20 +40,21 @@ $row = mysqli_fetch_assoc($result);
 
     <div class="row">
         <div class="col-md-12">
-            <div class="offset-md-4 col-md-5">
-                <ul class="nav nav-pills mb-3 whitespace" id="pills-tab" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Αρχική</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Φωτογραφίες Σπιτιού</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Επεξεργασία προφίλ</a>
-                    </li>
-                </ul>
+            <div class="row">
+                <div class="offset-md-4 col-md-8">
+                    <ul class="nav nav-pills mb-3 whitespace" id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Αρχική</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Φωτογραφίες Σπιτιού</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Επεξεργασία προφίλ</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-
             <div class="tab-content" id="pills-tabContent">
                 <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                     <div class="col-md-12 grayspace">
@@ -63,10 +64,10 @@ $row = mysqli_fetch_assoc($result);
 
                         <div class="offset-md-1 col-md-7 profile-input">
                             <div class="row">
-                                <div class="col-md-2">
+                                <div class="col-md-4">
                                     <p class="profile-info">Όνοματεπώνυμο</p>
                                 </div>
-                                <div class="offset-md-2 col-md-4">
+                                <div class="offset-md-1 col-md-6">
                                     <p class="profile-info2">
                                         <?php echo $row['user_firstname'];
                                         echo " ";
@@ -78,10 +79,10 @@ $row = mysqli_fetch_assoc($result);
 
                         <div class="offset-md-1 col-md-7 profile-input2">
                             <div class="row">
-                                <div class="col-md-3">
+                                <div class="col-md-4">
                                     <p class="profile-info">Ημερομηνια Γέννησης</p>
                                 </div>
-                                <div class="offset-md-1 col-md-4">
+                                <div class="offset-md-1 col-md-6">
                                     <p class="profile-info2">
                                         <?php echo $row['user_dateofbirth']; ?>
                                     </p>
@@ -91,10 +92,10 @@ $row = mysqli_fetch_assoc($result);
 
                         <div class="offset-md-1 col-md-7 profile-input3">
                             <div class="row">
-                                <div class="col-md-3">
+                                <div class="col-md-4">
                                     <p class="profile-info">Πόλη</p>
                                 </div>
-                                <div class="offset-md-1 col-md-4">
+                                <div class="offset-md-1 col-md-6">
                                     <p class="profile-info2">
                                         <?php echo $row['user_location']; ?>
                                     </p>
@@ -104,10 +105,10 @@ $row = mysqli_fetch_assoc($result);
 
                         <div class="offset-md-1 col-md-7 profile-input2">
                             <div class="row">
-                                <div class="col-md-3">
+                                <div class="col-md-4">
                                     <p class="profile-info">Φύλο</p>
                                 </div>
-                                <div class="offset-md-1 col-md-4">
+                                <div class="offset-md-1 col-md-6">
                                     <p class="profile-info2">
                                         <?php echo $row['user_gender']; ?>
                                     </p>
@@ -117,10 +118,10 @@ $row = mysqli_fetch_assoc($result);
 
                         <div class="offset-md-1 col-md-7 profile-input3">
                             <div class="row">
-                                <div class="col-md-3">
+                                <div class="col-md-4">
                                     <p class="profile-info">Ψάχνει Για</p>
                                 </div>
-                                <div class="offset-md-1 col-md-4">
+                                <div class="offset-md-1 col-md-6">
                                     <p class="profile-info2">
                                         <?php echo $row['user_type']; ?>
                                     </p>
@@ -134,10 +135,10 @@ $row = mysqli_fetch_assoc($result);
 
                         <div class="offset-md-1 col-md-7 profile-input4">
                             <div class="row">
-                                <div class="col-md-3">
+                                <div class="col-md-4">
                                     <p class="profile-info">Χόμπυ</p>
                                 </div>
-                                <div class="offset-md-1 col-md-4">
+                                <div class="offset-md-1 col-md-6">
                                     <p class="profile-info2">
                                         <?php
                                         echo $row['user_sports'];
@@ -160,10 +161,10 @@ $row = mysqli_fetch_assoc($result);
 
                         <div class="offset-md-1 col-md-7 profile-input2">
                             <div class="row">
-                                <div class="col-md-3">
+                                <div class="col-md-4">
                                     <p class="profile-info">Καπνιστής</p>
                                 </div>
-                                <div class="offset-md-1 col-md-4">
+                                <div class="offset-md-1 col-md-6">
                                     <p class="profile-info2">
                                         <?php echo $row['user_issmoker']; ?>
                                     </p>
@@ -254,10 +255,10 @@ $row = mysqli_fetch_assoc($result);
 
                                 <div class="row">
 
-                                    <div class="col-md-3">
+                                    <div class="col-md-4">
                                         <p class="profile-info">Όνομα</p>
                                     </div>
-                                    <div class="offset-md-1 col-md-4">
+                                    <div class="offset-md-1 col-md-6">
 
                                         <input class="edit-input" type="text" name="username" value="<?php echo $row['user_firstname']; ?>" />
 
@@ -268,10 +269,10 @@ $row = mysqli_fetch_assoc($result);
 
                                 <div class="row">
 
-                                    <div class="col-md-3">
+                                    <div class="col-md-4">
                                         <p class="profile-info">Επώνυμο</p>
                                     </div>
-                                    <div class="offset-md-1 col-md-4">
+                                    <div class="offset-md-1 col-md-6">
 
                                         <input class="edit-input" type="text" name="username" value="<?php echo $row['user_lastname']; ?>" />
 
@@ -281,10 +282,10 @@ $row = mysqli_fetch_assoc($result);
 
                             <div class="offset-md-1 col-md-7 profile-input2">
                                 <div class="row">
-                                    <div class="col-md-2">
+                                    <div class="col-md-4">
                                         <p class="profile-info">Κωδικος</p>
                                     </div>
-                                    <div class="offset-md-2 col-md-4">
+                                    <div class="offset-md-1 col-md-6">
 
                                         <input class="edit-input" type="text" name="password" value="<?php echo $row['user_password']; ?>" />
 
@@ -294,10 +295,10 @@ $row = mysqli_fetch_assoc($result);
 
                             <div class="offset-md-1 col-md-7 profile-input3">
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-md-4">
                                         <p class="profile-info">Ημερομηνια Γέννησης</p>
                                     </div>
-                                    <div class="offset-md-1 col-md-4">
+                                    <div class="offset-md-1 col-md-6">
 
                                         <input class="edit-input" type="text" name="dateofbirth" value="<?php echo $row['user_dateofbirth']; ?>" />
 
@@ -307,10 +308,10 @@ $row = mysqli_fetch_assoc($result);
 
                             <div class="offset-md-1 col-md-7 profile-input2">
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-md-4">
                                         <p class="profile-info">Πόλη</p>
                                     </div>
-                                    <div class="offset-md-1 col-md-4">
+                                    <div class="offset-md-1 col-md-6">
 
                                         <input class="edit-input" type="text" name="area" value="<?php echo $row['user_location']; ?>" />
 
@@ -320,10 +321,10 @@ $row = mysqli_fetch_assoc($result);
 
                             <div class="offset-md-1 col-md-7 profile-input3">
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-md-4">
                                         <p class="profile-info">Φύλο</p>
                                     </div>
-                                    <div class="offset-md-1 col-md-4">
+                                    <div class="offset-md-1 col-md-6">
 
                                         <input class="radio" type="radio" name="gender" value="Άνδρας" /> Άντρας
                                         <input class="radio" type="radio" name="gender" value="Γυναίκα" /> Γυναίκα
@@ -334,10 +335,10 @@ $row = mysqli_fetch_assoc($result);
 
                             <div class="offset-md-1 col-md-7 profile-input2">
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-md-4">
                                         <p class="profile-info">Ψάχνει για</p>
                                     </div>
-                                    <div class="offset-md-1 col-md-4">
+                                    <div class="offset-md-1 col-md-6">
 
                                         <input class="radio" type="radio" name="lookingFor" value="Σπίτι" /> Σπίτι
                                         <input class="radio" type="radio" name="lookingFor" value="Συγκάτοικο" /> Συγκάτοικο
@@ -366,10 +367,10 @@ $row = mysqli_fetch_assoc($result);
 
                             <div class="offset-md-1 col-md-7 profile-input2">
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-md-4">
                                         <p class="profile-info">Καπνιστής</p>
                                     </div>
-                                    <div class="offset-md-1 col-md-4">
+                                    <div class="offset-md-1 col-md-6">
 
                                         <input class="radio" type="radio" name="smokeYes" value="Ναι" /> Ναί
                                         <input class="radio" type="radio" name="smokeNo" value="Όχι" /> Όχι
@@ -380,10 +381,10 @@ $row = mysqli_fetch_assoc($result);
 
                             <div class="offset-md-1 col-md-7 profile-input3">
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-md-4">
                                         <p class="profile-info">Φωτογραφία Προφίλ</p>
                                     </div>
-                                    <div class="offset-md-1 col-md-4">
+                                    <div class="offset-md-1 col-md-6">
 
                                         <input class="edit-input" type="file" name="fileToUpload" accept="image/*" />
 
@@ -393,10 +394,10 @@ $row = mysqli_fetch_assoc($result);
 
                             <div class="offset-md-1 col-md-7 profile-input2">
                                 <div class="row">
-                                    <div class="col-md-3">
+                                    <div class="col-md-4">
                                         <p class="profile-info">Φωτογραφία Εξωφύλου</p>
                                     </div>
-                                    <div class="offset-md-1 col-md-4">
+                                    <div class="offset-md-1 col-md-6">
 
                                         <input class="edit-input" type="file" name="coverPic" accept="image/*" />
 
