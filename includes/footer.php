@@ -3,13 +3,13 @@
         <div class="col-md-12">
             <ul class="nav justify-content-center">
                 <li class="nav-item ">
-                    <a class="nav-link" href="#">Αρχική</a>
+                    <a class="nav-link" href="index.php">Αρχική</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Σχετικά με εμάς</a>
+                    <a class="nav-link" href="about-us.php">Σχετικά με εμάς</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Επικοινωνία</a>
+                    <a class="nav-link" href="contact.php">Επικοινωνία</a>
                 </li>
             </ul>
         </div>
@@ -35,7 +35,8 @@
 </footer>
 </div>
 </body>
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/script.js"></script>
-</html>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+
+</html> 
